@@ -6,7 +6,7 @@ http://zhixiang.in/
 
 ##Why here?
   
-This website is implemented by [ISP.js], which is an MVC engine for ASP.NET/XSP. It's a good example of using ISP.js.   
+This website is implemented by [ISP.js], which is an MVC engine for ASP.NET/XSP. It's a good example of using [ISP.js].   
   
 ##You want me to modify them?
 
