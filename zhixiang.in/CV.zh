@@ -54,9 +54,9 @@
                             Picasa上</a></li>
                     </ul>
                     <ul class="nav" style="float: right;">
-                        <li class=""><a title="英语" href="CV.en">
+                        <li class=""><a title="英语" href="/CV.en">
                             <img src="/img/en.jpg" /></a></li>
-                        <li class="active"><a title="中文" href="CV.zh">
+                        <li class="active"><a title="中文" href="/CV.zh">
                             <img src="/img/zh.jpg" /></a></li>
                     </ul>
                     <script type="text/javascript" src="/js/scripts.js">

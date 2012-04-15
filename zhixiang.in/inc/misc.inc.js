@@ -24,7 +24,7 @@ getHrefLang:function (lang) {
             HomePages["eo"] = "Saluton";
             return '/'+HomePages[lang];
         }
-        return $subPage+'.'+lang;
+        return '/'+$subPage+'.'+lang;
 }
 };
 //-->

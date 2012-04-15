@@ -72,17 +72,6 @@ $load('master/zh.master.js')({
                 </p>
             </div>
             <hr />
-            <div id="monocn">
-                <h3>
-                    heavyScroll</h3>
-                <p>
-                    让你的滚动条看起来像被涂了胶水一样。</p>
-                <p>
-                    关键字：<em>Javascript JQuery插件</em></p>
-                <p>
-                    <a href="HeavyScroll.{$lang$}">了解更多</a></p>
-            </div>
-            <hr />
             <div id="goclassing">
                 <h3>
                     Goclassing.com</h3>

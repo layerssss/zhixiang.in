@@ -72,17 +72,6 @@ $load('master/en.master.js')({
                 </p>
             </div>
             <hr />
-            <div id="monocn">
-                <h3>
-                    heavyScroll</h3>
-                <p>
-                    Make your scrollbars heavier.</p>
-                <p>
-                    Keywords:<em>Javascript JQueryPlugin</em></p>
-                <p>
-                    <a href="HeavyScroll.{$lang$}">Learn more</a></p>
-            </div>
-            <hr />
             <div id="goclassing">
                 <h3>
                     Goclassing.com</h3>
