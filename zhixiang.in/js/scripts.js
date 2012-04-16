@@ -3,14 +3,13 @@ $(function () {
 
     $('a[href$=".zh"],a[href$=".en"],a[href$=".eo"]').pjax('#main', {
         fragment: '#main',
-        timeout: 1500
+        timeout: 3000
     })
     .live('click', function () {
         $('.tooltip').fadeOut('fast');
         $('.loading').fadeIn('fast');
     })
-    $(document).on('pjax:end', function () {
-    }).on('pjax:end', function () {
+    var pgReady = function () {
         if ($('#disqus_thread')[0]) {
             setTimeout(function () {
                 var disqus_shortname = 'zhixiangyin'; // required: replace example with your forum shortname
@@ -21,8 +20,12 @@ $(function () {
         }
         $('.langnan').css('opacity', '0.5');
         $('[title]').tooltip({ placement: 'bottom' });
+    };
+    $(document).on('pjax:end', function () {
+    }).on('pjax:end', function () {
+        pgReady();
     });
-
+    pgReady();
     $('a.fancybox').fancybox({
         helpers: {
             thumbs: {

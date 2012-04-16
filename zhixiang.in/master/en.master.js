@@ -56,11 +56,9 @@ if (typeof (arguments[0].head) == 'function') { arguments[0].head(); } /*-->
                     </a><a class="brand" href="/">Zhixiang Yin</a>
                     <div class="nav-collapse">
                         <ul class="nav">
-                            <li class="{$misc.getClassNav('About')$}"><a href="/About.{$lang$}">About &amp; Projects</a></li>
+                            <li class="{$misc.getClassNav('About')$}{$misc.getClassNav('CV')$}"><a href="/About.{$lang$}">About &amp; Programming</a></li>
                             <li class="divider-vertical"></li>
-                            <li class="{$misc.getClassNav('Journal')$}"><a href="/Journals.{$lang$}">Journals</a></li>
-                            <li class="divider-vertical"></li>
-                            <li class="{$misc.getClassNav('CV')$}"><a href="/CV.{$lang$}">CV</a></li>
+                            <li class="{$misc.getClassNav('Esperanto')$}"><a href="/Esperanto.{$lang$}">Esperanto</a></li>
                             <li class="divider-vertical"></li>
                             <li><a href="#" onclick="return false;">see me on:</a></li>
                             <li><a href="https://github.com/layerssss/" target="_blank">Github</a></li>

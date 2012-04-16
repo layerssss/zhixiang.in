@@ -56,11 +56,9 @@ if (typeof (arguments[0].head) == 'function') { arguments[0].head(); } /*-->
                     </a><a class="brand" href="/">尹志翔</a>
                     <div class="nav-collapse">
                         <ul class="nav">
-                            <li class="{$misc.getClassNav('About')$}"><a href="/About.{$lang$}">关于 &amp; 开放项目</a></li>
+                            <li class="{$misc.getClassNav('About')$}{$misc.getClassNav('CV')$}"><a href="/About.{$lang$}">关于 &amp; 编程</a></li>
                             <li class="divider-vertical"></li>
-                            <li class="{$misc.getClassNav('Journal')$}"><a href="/Journals.{$lang$}">游记</a></li>
-                            <li class="divider-vertical"></li>
-                            <li class="{$misc.getClassNav('CV')$}"><a href="/CV.{$lang$}">简历</a></li>
+                            <li class="{$misc.getClassNav('Esperanto')$}"><a href="/Esperanto.{$lang$}">世界语</a></li>
                             <li class="divider-vertical"></li>
                             <li><a href="#" onclick="return false;">我还在：</a></li>
                             <li><a href="https://github.com/layerssss/" target="_blank">Github上</a></li>
