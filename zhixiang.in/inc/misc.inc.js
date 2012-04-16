@@ -15,16 +15,6 @@ getClassNav: function (page) {
 }, 
 getClassLang:function (lang,curLang,langs) {
         return (lang == curLang ? 'active': '')+(langs?(!langs[curLang]?' langnan':''):'');
-},
-getHrefLang:function (lang) {
-        if (typeof ($subPage) == 'undefined') {
-            var HomePages={};
-            HomePages["zh"] = "NiHao";
-            HomePages["en"] = "Hello";
-            HomePages["eo"] = "Saluton";
-            return '/'+HomePages[lang];
-        }
-        return '/'+$subPage+'.'+lang;
 }
 };
 //-->

@@ -5,6 +5,10 @@ $subPage = 'CV';
 $load('master/zh.master.js')({
     title: '简历',
     langs: langs,
+    head:function(){
+    
+    /*--><script type="text/javascript">$('[title]').tooltip({ placement: 'bottom' });</script><!--*/
+    },
     body: function () {
 
         /*-->
@@ -17,11 +21,6 @@ $load('master/zh.master.js')({
             <i class=" icon-download-alt"></i>JPG格式</a>
             </h3>
 </div>
-<script type="text/javascript">
-    $(function () {
-        $('footer').addClass('visible-desktop');
-    });
-</script>
 <div class="well">
     <h1>
         <span style="float: right">Web前端程序员</span>.NET开发工程师</h1>

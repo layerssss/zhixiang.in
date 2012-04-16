@@ -1,4 +1,5 @@
-/// <reference path="/ISPReferences/master/en.master.js" />
+///
+<reference path="/ISPReferences/master/en.master.js" />
 /*<!--*/
 var lang = 'en';
 var langs = typeof (arguments[0].langs) == 'undefined' ? null : arguments[0].langs;
@@ -34,60 +35,66 @@ if (typeof (arguments[0].title) != 'undefined' && arguments[0].title) { $((argum
     <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
     <script src="/js/jquery-1.7.1.min.js" type="text/javascript"></script>
     <script src="/js/fancyBox/jquery.fancybox.pack.js" type="text/javascript"></script>
+    <script src="/js/jquery.pjax.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="/js/scripts.js">
+    </script>
+    <script src="/js/bootstrap.min.js" type="text/javascript"></script>
     <link href="/js/fancyBox/jquery.fancybox.css" rel="stylesheet" type="text/css" />
     <!--*/
 if (typeof (arguments[0].head) == 'function') { arguments[0].head(); } /*-->
 </head>
 <body>
-    <div class="navbar navbar-fixed-top">
-        <div class="navbar-inner">
-            <div class="container">
-                <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"><span
-                    class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
-                </a><a class="brand" href="/">Zhixiang Yin</a>
-                <div class="nav-collapse">
-                    <ul class="nav">
-                        <li class="{$misc.getClassNav('')$}"><a href="/Hello">About &amp; Projects</a></li>
-                        <li class="divider-vertical"></li>
-                        <li class="{$misc.getClassNav('Journal')$}"><a href="/Journals.{$lang$}">Journals</a></li>
-                        <li class="divider-vertical"></li>
-                        <li class="{$misc.getClassNav('CV')$}"><a href="/CV.{$lang$}">CV</a></li>
-                        <li class="divider-vertical"></li>
-                        <li><a href="#" onclick="return false;">see me on:</a></li>
-                        <li><a href="https://github.com/layerssss/" target="_blank">Github</a></li>
-                        <li><a href="https://www.facebook.com/zhixiang.yin" target="_blank">Facebook</a></li>
-                        <li><a href="https://plus.google.com/u/0/photos/108058134179218385830/albums" target="_blank">
-                            Picasa</a></li>
-                    </ul>
-                    <ul class="nav" style="float: right;">
-                        <li class="{$misc.getClassLang(lang,'en',langs)$}"><a title="English" href="{$misc.getHrefLang('en')$}">
-                            <img src="/img/en.jpg" /></a></li>
-                        <li class="{$misc.getClassLang(lang,'zh',langs)$}"><a title="Chinese" href="{$misc.getHrefLang('zh')$}">
-                            <img src="/img/zh.jpg" /></a></li>
-                    </ul>
-                    <script type="text/javascript" src="/js/scripts.js">
-                    </script>
+    <div class="loader" style="display: none">
+        <!--<img src="spin.gif">-->
+        dddd</div>
+    <div id="main">
+        <div class="navbar navbar-fixed-top">
+            <div class="navbar-inner">
+                <div class="container">
+                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"><span
+                        class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+                    </a><a class="brand" href="/">Zhixiang Yin</a>
+                    <div class="nav-collapse">
+                        <ul class="nav">
+                            <li class="{$misc.getClassNav('About')$}"><a href="/About.{$lang$}">About &amp; Projects</a></li>
+                            <li class="divider-vertical"></li>
+                            <li class="{$misc.getClassNav('Journal')$}"><a href="/Journals.{$lang$}">Journals</a></li>
+                            <li class="divider-vertical"></li>
+                            <li class="{$misc.getClassNav('CV')$}"><a href="/CV.{$lang$}">CV</a></li>
+                            <li class="divider-vertical"></li>
+                            <li><a href="#" onclick="return false;">see me on:</a></li>
+                            <li><a href="https://github.com/layerssss/" target="_blank">Github</a></li>
+                            <li><a href="https://www.facebook.com/zhixiang.yin" target="_blank">Facebook</a></li>
+                            <li><a href="https://plus.google.com/u/0/photos/108058134179218385830/albums" target="_blank">
+                                Picasa</a></li>
+                        </ul>
+                        <div style="float: right;">
+                            <img src="/img/loading.gif" class="loading" style="display: none; float: left; margin-top: 15px;" />
+                            <ul class="nav" style="">
+                                <li class="{$misc.getClassLang(lang,'en',langs)$}"><a title="English" href="{$$subPage$}.en">
+                                    <img src="/img/en.jpg" /></a></li>
+                                <li class="{$misc.getClassLang(lang,'zh',langs)$}"><a title="Chinese" href="{$$subPage$}.zh">
+                                    <img src="/img/zh.jpg" /></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--/.nav-collapse -->
                 </div>
-                <!--/.nav-collapse -->
             </div>
         </div>
-    </div>
-    <div class="container">
-        <!--*/
+        <div class="container">
+            <!--*/
 arguments[0].body(); /*-->
-        <hr>
-        <footer>
+            <hr>
+            <footer>
         <p>&copy; Zhixiang Yin 2012 Powered by 
         <a href="http://twitter.github.com/bootstrap/" target="_blank">Bootstrap</a>,
         <a href="https://github.com/layerssss/ispJs" target="_blank">ISP.js</a>
         </p>
       </footer>
+        </div>
     </div>
     <!-- /container -->
-    <!-- Le javascript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="/js/bootstrap.min.js" type="text/javascript"></script>
 </body>
 </html>
 <!--*/

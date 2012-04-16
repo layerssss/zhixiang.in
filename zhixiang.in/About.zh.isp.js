@@ -1,6 +1,7 @@
 /// <reference path="/ISPReferences/NiHao.isp.js" />
 /*<!--*/
-var lang='zh';
+var lang = 'zh';
+var $subPage = "About";
 $load('master/zh.master.js')({
     body: function () { 
     /*-->

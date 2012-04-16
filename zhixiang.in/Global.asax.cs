@@ -26,16 +26,17 @@ namespace zhixiangyin
                         var dic = new Dictionary<string, string>();
                         foreach (var key in HomePages.Keys)
                         {
-                            if(System.IO.File.Exists(ispJs.WebApplication.Server.MapPath('/'+
+                            if (System.IO.File.Exists(ispJs.WebApplication.Server.MapPath('/' +
                                 (locals["$subPage"] as string) + '.' + key + ".md"
-                            ))){
+                            )))
+                            {
                                 dic[key] = HomePages[key];
                             }
                         }
                         locals["langs"] = dic;
                     };
             ispJs.WebApplication.RegisterRenderer("zh.isp.js",
-                new MarkdownServerPages.MarkdownRenderer(Server.MapPath("/")+"{0}.zh.md")
+                new MarkdownServerPages.MarkdownRenderer(Server.MapPath("/") + "{0}.zh.md")
                 {
                     Load = load,
                     Read = (subPage, file) =>
@@ -55,9 +56,9 @@ namespace zhixiangyin
                         PolyglotServerPages.WebApplication.Preference = "en";
                     }
                 });
-            ispJs.WebApplication.RegisterRenderer("NiHao.isp.js", new LangRenderer("zh"));
-            ispJs.WebApplication.RegisterRenderer("Hello.isp.js", new LangRenderer("en"));
-            ispJs.WebApplication.RegisterRenderer("Saluton.isp.js", new LangRenderer("eo"));
+            ispJs.WebApplication.RegisterRenderer("About.zh.isp.js", new LangRenderer("zh"));
+            ispJs.WebApplication.RegisterRenderer("About.en.isp.js", new LangRenderer("en"));
+            ispJs.WebApplication.RegisterRenderer("About.eo.isp.js", new LangRenderer("eo"));
 
 
             ispJs.WebApplication.RegisterRenderer("CV.zh.isp.js", new LangRenderer("zh"));

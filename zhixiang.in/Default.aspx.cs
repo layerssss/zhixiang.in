@@ -11,7 +11,7 @@ namespace zhixiangyin
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            Response.Redirect( Global.HomePages[PolyglotServerPages.WebApplication.Preference]);
+            Response.Redirect( "About."+PolyglotServerPages.WebApplication.Preference);
         }
     }
 }

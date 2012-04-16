@@ -1,6 +1,7 @@
 ﻿/// <reference path="/ISPReferences/Hello.isp.js" />
 /*<!--*/
-var lang='en';
+var lang = 'en'; 
+var $subPage = "About";
 $load('master/en.master.js')({
     body: function () {
         /*-->

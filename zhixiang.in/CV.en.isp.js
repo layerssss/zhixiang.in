@@ -5,6 +5,10 @@ $subPage = 'CV';
 $load('master/en.master.js')({
     title: 'CV',
     langs: langs,
+    head:function(){
+    
+    /*--><script type="text/javascript">$('[title]').tooltip({ placement: 'bottom' });</script><!--*/
+    },
     body: function () {
 
         /*-->
@@ -15,11 +19,6 @@ $load('master/en.master.js')({
         <a href="CV.en.jpg" class="btn btn-large">
             <i class=" icon-download-alt"></i>JPG format</a></h2>
 </div>
-<script type="text/javascript">
-    $(function () {
-        $('footer').addClass('visible-desktop');
-    });
-</script>
 <div class="well">
     <h1>
         <span style="float: right">Web Front-end Developer</span>.NET Developer</h1>

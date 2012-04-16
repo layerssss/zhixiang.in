@@ -65,6 +65,7 @@
     <Content Include="CV.en.jpg" />
     <Content Include="CV.zh.isp.js" />
     <Content Include="CV.zh.jpg" />
+    <Content Include="img\loading.gif" />
     <Content Include="img\en.jpg" />
     <Content Include="img\i_speak_esperanto.jpg" />
     <Content Include="img\photo.jpg" />
@@ -84,9 +85,10 @@
     <Content Include="js\fancyBox\jquery.fancybox.pack.js" />
     <Content Include="js\fancyBox\jquery.mousewheel-3.0.6.pack.js" />
     <Content Include="js\heavyScroll.js" />
+    <Content Include="js\jquery.pjax.min.js" />
     <Content Include="js\scripts.js" />
     <Content Include="master\en.master.js" />
-    <Content Include="NiHao.isp.js" />
+    <Content Include="About.zh.isp.js" />
     <Content Include="css\bootstrap.min.css" />
     <Content Include="Default.aspx" />
     <Content Include="Global.asax" />
@@ -104,7 +106,7 @@
     </Content>
     <Content Include="zh.isp.js" />
     <Content Include="en.isp.js" />
-    <Content Include="Hello.isp.js" />
+    <Content Include="About.en.isp.js" />
     <Content Include="CV.en.isp.js" />
   </ItemGroup>
   <ItemGroup>
