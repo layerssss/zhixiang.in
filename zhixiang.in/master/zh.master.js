@@ -1,5 +1,4 @@
-///
-<reference path="/ISPReferences/master/zh.master.js" />
+/// <reference path="/ISPReferences/master/zh.master.js" />
 /*<!--*/
 var lang = 'zh';
 var langs = typeof (arguments[0].langs) == 'undefined' ? null : arguments[0].langs;

@@ -27,7 +27,7 @@ namespace zhixiangyin
                         foreach (var key in HomePages.Keys)
                         {
                             if (System.IO.File.Exists(ispJs.WebApplication.Server.MapPath('/' +
-                                (locals["$subPage"] as string) + '.' + key + ".md"
+                                (locals["$subPage"] as string).Replace('-', '/') + '.' + key + ".md"
                             )))
                             {
                                 dic[key] = HomePages[key];
@@ -42,7 +42,8 @@ namespace zhixiangyin
                     Read = (subPage, file) =>
                     {
                         PolyglotServerPages.WebApplication.Preference = "zh";
-                    }
+                    },
+                    PathTransforming = (path) => path.Replace('-', ispJs.Utility.PathSymbol)
                 });
 
 
@@ -54,7 +55,8 @@ namespace zhixiangyin
                     Read = (subPage, file) =>
                     {
                         PolyglotServerPages.WebApplication.Preference = "en";
-                    }
+                    },
+                    PathTransforming = (path) => path.Replace('-', ispJs.Utility.PathSymbol)
                 });
             ispJs.WebApplication.RegisterRenderer("About.zh.isp.js", new LangRenderer("zh"));
             ispJs.WebApplication.RegisterRenderer("About.en.isp.js", new LangRenderer("en"));

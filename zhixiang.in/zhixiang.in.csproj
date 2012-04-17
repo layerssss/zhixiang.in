@@ -65,6 +65,7 @@
     <Content Include="CV.en.jpg" />
     <Content Include="CV.zh.isp.js" />
     <Content Include="CV.zh.jpg" />
+    <None Include="Esperanto\Gramma.en.md" />
     <Content Include="img\loading.gif" />
     <Content Include="img\en.jpg" />
     <Content Include="img\i_speak_esperanto.jpg" />
@@ -108,6 +109,8 @@
     <Content Include="en.isp.js" />
     <Content Include="About.en.isp.js" />
     <Content Include="CV.en.isp.js" />
+    <None Include="Esperanto.zh.md" />
+    <None Include="Esperanto\Gramma.zh.md" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Default.aspx.cs">
@@ -134,9 +137,7 @@
     <None Include="CV.zh.pdf" />
     <None Include="Esperanto.en.md" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Esperonto\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
   <ProjectExtensions>

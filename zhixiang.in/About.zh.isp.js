@@ -1,4 +1,4 @@
-/// <reference path="/ISPReferences/NiHao.isp.js" />
+/// <reference path="/ISPReferences/About.zh.isp.js" />
 /*<!--*/
 var lang = 'zh';
 var $subPage = "About";
