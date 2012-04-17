@@ -18,13 +18,10 @@ $load('master/en.master.js')({
                     <dl class="dl-horizontal">
                         <dt>Name:</dt>
                         <dd>
-                            Zhixiang Yin ( Michael Yin )</dd>
+                            Zhixiang Yin <br/>( Michael Yin )</dd>
                         <dt>Profession:</dt>
                         <dd>
                             Programmer</dd>
-                        <dt>E-mail:</dt>
-                        <dd>
-                            layerssss<!---->(at)gmail.com</dd>
                     </dl>
                 </div>
                 <div class="span4">
@@ -36,6 +33,9 @@ $load('master/en.master.js')({
                         <dt>Nationality:</dt>
                         <dd>
                             Mainland China</dd>
+                        <dt>E-mail:</dt>
+                        <dd>
+                            layerssss<!---->(at)gmail.com</dd>
                     </dl>
                 </div>
                 <div class="span4">
