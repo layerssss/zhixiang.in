@@ -41,6 +41,7 @@ if (typeof (arguments[0].title) != 'undefined') { $((arguments[0].title ? argume
     </script>
     <script src="/js/bootstrap.min.js" type="text/javascript"></script>
     <link href="/js/fancyBox/jquery.fancybox.css" rel="stylesheet" type="text/css" />
+    <link href="/css/stylesheet.css" rel="stylesheet" type="text/css" />
     <!--*/
 if (typeof (arguments[0].head) == 'function') { arguments[0].head(); } /*-->
 </head>
