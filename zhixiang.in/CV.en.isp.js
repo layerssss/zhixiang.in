@@ -175,7 +175,9 @@ $load('master/en.master.js')({
                 <div class="span2">
                     2011/8</div>
                 <div class="span3">
-                    <a href="img/ss_gc.jpg" class="fancybox" target="_blank">screenshots</a>
+                    <a href="img/screenshots/gc1.png" class="fancybox" target="_blank">screenshot1</a>
+                    <a href="img/screenshots/gc2.png" class="fancybox" target="_blank">screenshot2</a>
+                    <a href="img/screenshots/gc3.png" class="fancybox" target="_blank">screenshot3</a>
                 </div>
             </div>
         </div>
@@ -189,7 +191,7 @@ $load('master/en.master.js')({
                 <div class="span2">
                     2010/11</div>
                 <div class="span3">
-                    <a href="img/ss_ocp.jpg" class="fancybox" target="_blank">screenshots</a>
+                    <a href="img/screenshots/ocp.png" class="fancybox" target="_blank">screenshot</a>
                 </div>
             </div>
         </div>
@@ -203,7 +205,7 @@ $load('master/en.master.js')({
                 <div class="span2">
                     2010/10</div>
                 <div class="span3">
-                    <a href="img/ss_lwaker.jpg" class="fancybox" target="_blank">screenshots</a>
+                    <a href="img/screenshots/lwaker.png" class="fancybox" target="_blank">screenshot</a>
                 </div>
             </div>
         </div>
@@ -217,7 +219,7 @@ $load('master/en.master.js')({
                 <div class="span2">
                     2010/8</div>
                 <div class="span3">
-                    <a href="img/ss_netct.jpg" class="fancybox" target="_blank">screenshots</a>
+                    <a href="img/screenshots/netct.png" class="fancybox" target="_blank">screenshot</a>
                 </div>
             </div>
         </div>
@@ -231,9 +233,12 @@ $load('master/en.master.js')({
                 <div class="span2">
                     2010/6</div>
                 <div class="span3">
-                    <a href="img/ss_sms.jpg" class="fancybox" target="_blank">screenshots1</a> <a href="img/ss_sms2.jpg"
-                        class="fancybox" target="_blank">screenshots2</a> <a href="img/ss_sms3.jpg" class="fancybox"
-                            target="_blank">screenshots3</a>
+                    <a href="img/screenshots/sms1.png" class="fancybox" target="_blank">screenshot1</a>
+                    <a href="img/screenshots/sms2.png" class="fancybox" target="_blank">screenshot2</a>
+                    <a href="img/screenshots/sms3.png" class="fancybox" target="_blank">screenshot3</a>
+                    <a href="img/screenshots/sms4.png" class="fancybox" target="_blank">screenshot4</a>
+                    <a href="img/screenshots/sms5.png" class="fancybox" target="_blank">screenshot5</a>
+                    <a href="img/screenshots/sms6.png" class="fancybox" target="_blank">screenshot6</a>
                 </div>
             </div>
         </div>
@@ -247,7 +252,7 @@ $load('master/en.master.js')({
                 <div class="span2">
                     2009/12</div>
                 <div class="span3">
-                    <a href="img/ss_strikingcrafts.jpg" class="fancybox" target="_blank">screenshots</a>
+                    <a href="img/screenshots/lshop.png" class="fancybox" target="_blank">screenshot</a>
                 </div>
             </div>
         </div>
@@ -261,7 +266,7 @@ $load('master/en.master.js')({
                 <div class="span2">
                     2006/6</div>
                 <div class="span3">
-                    <a href="img/ss_afe.jpg" class="fancybox" target="_blank">screenshots</a>
+                    <a href="img/screenshots/afe.png" class="fancybox" target="_blank">screenshot</a>
                 </div>
             </div>
         </div>
