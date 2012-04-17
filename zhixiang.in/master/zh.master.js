@@ -1,4 +1,4 @@
-/// <reference path="/ISPReferences/master/zh.master.js" />
+﻿/// <reference path="/ISPReferences/master/zh.master.js" />
 /*<!--*/
 var lang = 'zh';
 var langs = typeof (arguments[0].langs) == 'undefined' ? null : arguments[0].langs;
@@ -9,7 +9,7 @@ var misc = $load('inc/misc.inc.js')();
     <meta charset="utf-8">
     <title>
         <!--*/
-if (typeof (arguments[0].title) != 'undefined') { $((arguments[0].title ? arguments[0].title : '无标题页面') + '-'); } /*-->
+if (typeof (arguments[0].title) != 'undefined') { $((arguments[0].title ? arguments[0].title : '无标题页面') + '-'); }/*-->
         尹志翔</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
