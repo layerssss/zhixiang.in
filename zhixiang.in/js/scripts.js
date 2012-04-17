@@ -9,7 +9,7 @@ $(function () {
         if (t == null) {
             clearTimeout(t);
         }
-        $('.tooltip').fadeOut('fast');
+        $('#main>.container>:not(.navbar)').fadeOut('fast');
         $('.loading').fadeIn('fast');
     })
 
