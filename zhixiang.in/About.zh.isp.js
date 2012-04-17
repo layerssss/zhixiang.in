@@ -29,10 +29,9 @@ $load('master/zh.master.js')({
                 </div>
                 <div class="span4">
                     <dl class="dl-horizontal">
-                        <dt>信仰：</dt>
+                        <dt>最爱吃的菜：</dt>
                         <dd>
-                            <a title="在维基百科上了解更多" href="http://en.wikipedia.org/wiki/Confucianism" target="_blank">
-                                儒学</a></dd>
+                            红烧肉</dd>
                         <dt>国籍：</dt>
                         <dd>
                             中国</dd>

@@ -70,6 +70,7 @@
     <Content Include="img\en.jpg" />
     <Content Include="img\i_speak_esperanto.jpg" />
     <Content Include="img\photo.jpg" />
+    <Content Include="img\screenshots\afe.png" />
     <Content Include="img\screenshots\gc1.png" />
     <Content Include="img\screenshots\gc2.png" />
     <Content Include="img\screenshots\gc3.png" />
@@ -83,7 +84,6 @@
     <Content Include="img\screenshots\sms4.png" />
     <Content Include="img\screenshots\sms5.png" />
     <Content Include="img\screenshots\sms6.png" />
-    <Content Include="img\screenshots\afe.jpg" />
     <Content Include="img\zh.jpg" />
     <Content Include="img\eo.jpg" />
     <Content Include="inc\misc.inc.js" />

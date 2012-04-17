@@ -29,10 +29,10 @@ $load('master/en.master.js')({
                 </div>
                 <div class="span4">
                     <dl class="dl-horizontal">
-                        <dt>Religion:</dt>
+                        <dt>
+                        Favourite drink:</dt>
                         <dd>
-                            <a title="Learn more about it on Wikipedia" href="http://en.wikipedia.org/wiki/Confucianism" target="_blank">
-                                Confucianism</a></dd>
+                            Coffee</dd>
                         <dt>Nationality:</dt>
                         <dd>
                             Mainland China</dd>
