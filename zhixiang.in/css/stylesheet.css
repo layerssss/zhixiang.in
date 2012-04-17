@@ -1,4 +1,5 @@
 ﻿body
 {
     background-color: #EAEAEA;
+    overflow-y:scroll;
 }
