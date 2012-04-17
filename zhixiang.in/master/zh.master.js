@@ -16,10 +16,9 @@ if (typeof (arguments[0].title) != 'undefined') { $((arguments[0].title ? argume
     <meta name="author" content="">
     <!-- Le styles -->
     <style type="text/css">
-        body
+        #main>.container
         {
-            padding-top: 60px;
-            padding-bottom: 40px;
+            margin-top:-4px;
         }
     </style>
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
@@ -50,7 +49,8 @@ if (typeof (arguments[0].head) == 'function') { arguments[0].head(); } /*-->
         <!--<img src="spin.gif">-->
         dddd</div>
     <div id="main">
-        <div class="navbar navbar-fixed-top">
+        <div class="container">
+        <div class="navbar">
             <div class="navbar-inner">
                 <div class="container">
                     <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"><span
@@ -82,7 +82,6 @@ if (typeof (arguments[0].head) == 'function') { arguments[0].head(); } /*-->
                 </div>
             </div>
         </div>
-        <div class="container">
             <!--*/
 arguments[0].body(); /*-->
             <hr>

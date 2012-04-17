@@ -1,4 +1,5 @@
-/// <reference path="/ISPReferences/master/en.master.js" />
+///
+<reference path="/ISPReferences/master/en.master.js" />
 /*<!--*/
 var lang = 'en';
 var langs = typeof (arguments[0].langs) == 'undefined' ? null : arguments[0].langs;
@@ -16,10 +17,9 @@ if (typeof (arguments[0].title) != 'undefined' && arguments[0].title) { $((argum
     <meta name="author" content="">
     <!-- Le styles -->
     <style type="text/css">
-        body
+        #main > .container
         {
-            padding-top: 60px;
-            padding-bottom: 40px;
+            margin-top: -4px;
         }
     </style>
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
@@ -50,39 +50,40 @@ if (typeof (arguments[0].head) == 'function') { arguments[0].head(); } /*-->
         <!--<img src="spin.gif">-->
         dddd</div>
     <div id="main">
-        <div class="navbar navbar-fixed-top">
-            <div class="navbar-inner">
-                <div class="container">
-                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"><span
-                        class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
-                    </a><a class="brand" href="/">Zhixiang Yin</a>
-                    <div class="nav-collapse">
-                        <ul class="nav">
-                            <li class="{$misc.getClassNav('About')$}{$misc.getClassNav('CV')$}"><a href="/About.{$lang$}">About &amp; Programming</a></li>
-                            <li class="divider-vertical"></li>
-                            <li class="{$misc.getClassNav('Esperanto')$}"><a href="/Esperanto.{$lang$}">Esperanto</a></li>
-                            <li class="divider-vertical"></li>
-                            <li><a href="#" onclick="return false;">see me on:</a></li>
-                            <li><a href="https://github.com/layerssss/" target="_blank">Github</a></li>
-                            <li><a href="https://www.facebook.com/zhixiang.yin" target="_blank">Facebook</a></li>
-                            <li><a href="https://plus.google.com/u/0/photos/108058134179218385830/albums" target="_blank">
-                                Picasa</a></li>
-                        </ul>
-                        <div style="float: right;">
-                            <img src="/img/loading.gif" class="loading" style="display: none; float: left; margin-top: 15px;" />
-                            <ul class="nav" style="">
-                                <li class="{$misc.getClassLang(lang,'en',langs)$}"><a title="English" href="{$$subPage$}.en">
-                                    <img src="/img/en.jpg" /></a></li>
-                                <li class="{$misc.getClassLang(lang,'zh',langs)$}"><a title="Chinese" href="{$$subPage$}.zh">
-                                    <img src="/img/zh.jpg" /></a></li>
+        <div class="container">
+            <div class="navbar">
+                <div class="navbar-inner">
+                    <div class="container">
+                        <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"><span
+                            class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+                        </a><a class="brand" href="/">Zhixiang Yin</a>
+                        <div class="nav-collapse">
+                            <ul class="nav">
+                                <li class="{$misc.getClassNav('About')$}{$misc.getClassNav('CV')$}"><a href="/About.{$lang$}">
+                                    About &amp; Programming</a></li>
+                                <li class="divider-vertical"></li>
+                                <li class="{$misc.getClassNav('Esperanto')$}"><a href="/Esperanto.{$lang$}">Esperanto</a></li>
+                                <li class="divider-vertical"></li>
+                                <li><a href="#" onclick="return false;">see me on:</a></li>
+                                <li><a href="https://github.com/layerssss/" target="_blank">Github</a></li>
+                                <li><a href="https://www.facebook.com/zhixiang.yin" target="_blank">Facebook</a></li>
+                                <li><a href="https://plus.google.com/u/0/photos/108058134179218385830/albums" target="_blank">
+                                    Picasa</a></li>
                             </ul>
+                            <div style="float: right;">
+                                <img src="/img/loading.gif" class="loading" style="display: none; float: left; margin-top: 15px;" />
+                                <ul class="nav" style="">
+                                    <li class="{$misc.getClassLang(lang,'en',langs)$}"><a title="English" href="{$$subPage$}.en">
+                                        <img src="/img/en.jpg" /></a></li>
+                                    <li class="{$misc.getClassLang(lang,'zh',langs)$}"><a title="Chinese" href="{$$subPage$}.zh">
+                                        <img src="/img/zh.jpg" /></a></li>
+                                </ul>
+                            </div>
                         </div>
+                        <!--/.nav-collapse -->
                     </div>
-                    <!--/.nav-collapse -->
                 </div>
             </div>
-        </div>
-        <div class="container">
             <!--*/
 arguments[0].body(); /*-->
             <hr>
