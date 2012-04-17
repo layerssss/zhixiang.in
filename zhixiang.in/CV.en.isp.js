@@ -120,6 +120,7 @@ $load('master/en.master.js')({
                     2012/01</div>
                 <div class="span3">
                     <a href="http://ispjs.org/" target="_blank">http://ispjs.org/</a>
+                    <a href="https://github.com/layerssss/ispJs" target="_blank">source</a>
                 </div>
             </div>
         </div>
@@ -134,6 +135,7 @@ $load('master/en.master.js')({
                     2011/12</div>
                 <div class="span3">
                     <a href="http://goclassing.com/" target="_blank">http://goclassing.com/</a>
+                    <a href="https://github.com/layerssss/goclassing.com" target="_blank">source</a>
                 </div>
             </div>
         </div>
@@ -175,9 +177,9 @@ $load('master/en.master.js')({
                 <div class="span2">
                     2011/8</div>
                 <div class="span3">
-                    <a href="img/screenshots/gc1.png" class="fancybox" target="_blank">screenshot1</a>
-                    <a href="img/screenshots/gc2.png" class="fancybox" target="_blank">screenshot2</a>
-                    <a href="img/screenshots/gc3.png" class="fancybox" target="_blank">screenshot3</a>
+                    <a href="img/screenshots/gc1.png" data-fancybox-group="gc" class="fancybox" target="_blank">screenshot1</a>
+                    <a href="img/screenshots/gc2.png" data-fancybox-group="gc" class="fancybox" target="_blank">screenshot2</a>
+                    <a href="img/screenshots/gc3.png" data-fancybox-group="gc" class="fancybox" target="_blank">screenshot3</a>
                 </div>
             </div>
         </div>
@@ -206,6 +208,7 @@ $load('master/en.master.js')({
                     2010/10</div>
                 <div class="span3">
                     <a href="img/screenshots/lwaker.png" class="fancybox" target="_blank">screenshot</a>
+                    <a href="https://github.com/layerssss/lwaker" target="_blank">source</a>
                 </div>
             </div>
         </div>
@@ -233,12 +236,12 @@ $load('master/en.master.js')({
                 <div class="span2">
                     2010/6</div>
                 <div class="span3">
-                    <a href="img/screenshots/sms1.png" class="fancybox" target="_blank">screenshot1</a>
-                    <a href="img/screenshots/sms2.png" class="fancybox" target="_blank">screenshot2</a>
-                    <a href="img/screenshots/sms3.png" class="fancybox" target="_blank">screenshot3</a>
-                    <a href="img/screenshots/sms4.png" class="fancybox" target="_blank">screenshot4</a>
-                    <a href="img/screenshots/sms5.png" class="fancybox" target="_blank">screenshot5</a>
-                    <a href="img/screenshots/sms6.png" class="fancybox" target="_blank">screenshot6</a>
+                    <a href="img/screenshots/sms1.png" data-fancybox-group="sms" class="fancybox" target="_blank">screenshot1</a>
+                    <a href="img/screenshots/sms2.png" data-fancybox-group="sms" class="fancybox" target="_blank">screenshot2</a>
+                    <a href="img/screenshots/sms3.png" data-fancybox-group="sms" class="fancybox" target="_blank">screenshot3</a>
+                    <a href="img/screenshots/sms4.png" data-fancybox-group="sms" class="fancybox" target="_blank">screenshot4</a>
+                    <a href="img/screenshots/sms5.png" data-fancybox-group="sms" class="fancybox" target="_blank">screenshot5</a>
+                    <a href="img/screenshots/sms6.png" data-fancybox-group="sms" class="fancybox" target="_blank">screenshot6</a>
                 </div>
             </div>
         </div>

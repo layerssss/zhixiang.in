@@ -122,6 +122,7 @@ $load('master/zh.master.js')({
                     2012年01月</div>
                 <div class="span3">
                     <a href="http://ispjs.org/" target="_blank">http://ispjs.org/</a>
+                    <a href="https://github.com/layerssss/ispJs" target="_blank">源码</a>
                 </div>
             </div>
         </div>
@@ -136,6 +137,7 @@ $load('master/zh.master.js')({
                     2011年12月</div>
                 <div class="span3">
                     <a href="http://goclassing.com/" target="_blank">http://goclassing.com/</a>
+                    <a href="https://github.com/layerssss/goclassing.com" target="_blank">源码</a>
                 </div>
             </div>
         </div>
@@ -177,9 +179,9 @@ $load('master/zh.master.js')({
                 <div class="span2">
                     2011年8月</div>
                 <div class="span3">
-                    <a href="img/screenshots/gc1.png" class="fancybox" target="_blank">截图1</a>
-                    <a href="img/screenshots/gc2.png" class="fancybox" target="_blank">截图2</a>
-                    <a href="img/screenshots/gc3.png" class="fancybox" target="_blank">截图3</a>
+                    <a href="img/screenshots/gc1.png" data-fancybox-group="gc" class="fancybox" target="_blank">截图1</a>
+                    <a href="img/screenshots/gc2.png" data-fancybox-group="gc" class="fancybox" target="_blank">截图2</a>
+                    <a href="img/screenshots/gc3.png" data-fancybox-group="gc" class="fancybox" target="_blank">截图3</a>
                 </div>
             </div>
         </div>
@@ -193,7 +195,7 @@ $load('master/zh.master.js')({
                 <div class="span2">
                     2010年11月</div>
                 <div class="span3">
-                    <a href="img/screenshots/ocp.png" class="fancybox" target="_blank">截图1</a>
+                    <a href="img/screenshots/ocp.png" data-fancybox-group="ocp" class="fancybox" target="_blank">截图1</a>
                 </div>
             </div>
         </div>
@@ -207,7 +209,8 @@ $load('master/zh.master.js')({
                 <div class="span2">
                     2010年10月</div>
                 <div class="span3">
-                    <a href="img/screenshots/lwaker.png" class="fancybox" target="_blank">截图1</a>
+                    <a href="img/screenshots/lwaker.png" data-fancybox-group="lwaker" class="fancybox" target="_blank">截图1</a>
+                    <a href="https://github.com/layerssss/lwaker" target="_blank">源码</a>
                 </div>
             </div>
         </div>
@@ -221,7 +224,7 @@ $load('master/zh.master.js')({
                 <div class="span2">
                     2010年8月</div>
                 <div class="span3">
-                    <a href="img/screenshots/netct.png" class="fancybox" target="_blank">截图1</a>
+                    <a href="img/screenshots/netct.png" data-fancybox-group="netct" class="fancybox" target="_blank">截图1</a>
                 </div>
             </div>
         </div>
@@ -235,12 +238,12 @@ $load('master/zh.master.js')({
                 <div class="span2">
                     2010年6月</div>
                 <div class="span3">
-                    <a href="img/screenshots/sms1.png" class="fancybox" target="_blank">截图1</a>
-                    <a href="img/screenshots/sms2.png" class="fancybox" target="_blank">截图2</a>
-                    <a href="img/screenshots/sms3.png" class="fancybox" target="_blank">截图3</a>
-                    <a href="img/screenshots/sms4.png" class="fancybox" target="_blank">截图4</a>
-                    <a href="img/screenshots/sms5.png" class="fancybox" target="_blank">截图5</a>
-                    <a href="img/screenshots/sms6.png" class="fancybox" target="_blank">截图6</a>
+                    <a href="img/screenshots/sms1.png" data-fancybox-group="sms" class="fancybox" target="_blank">截图1</a>
+                    <a href="img/screenshots/sms2.png" data-fancybox-group="sms" class="fancybox" target="_blank">截图2</a>
+                    <a href="img/screenshots/sms3.png" data-fancybox-group="sms" class="fancybox" target="_blank">截图3</a>
+                    <a href="img/screenshots/sms4.png" data-fancybox-group="sms" class="fancybox" target="_blank">截图4</a>
+                    <a href="img/screenshots/sms5.png" data-fancybox-group="sms" class="fancybox" target="_blank">截图5</a>
+                    <a href="img/screenshots/sms6.png" data-fancybox-group="sms" class="fancybox" target="_blank">截图6</a>
                 </div>
             </div>
         </div>
@@ -254,7 +257,7 @@ $load('master/zh.master.js')({
                 <div class="span2">
                     2009年12月</div>
                 <div class="span3">
-                    <a href="img/screenshots/lshop.png" class="fancybox" target="_blank">截图1</a>
+                    <a href="img/screenshots/lshop.png" data-fancybox-group="lshop" class="fancybox" target="_blank">截图1</a>
                 </div>
             </div>
         </div>
@@ -268,7 +271,7 @@ $load('master/zh.master.js')({
                 <div class="span2">
                     2006年6月</div>
                 <div class="span3">
-                    <a href="img/screenshots/afe.png" class="fancybox" target="_blank">截图1</a>
+                    <a href="img/screenshots/afe.png" data-fancybox-group="afe" class="fancybox" target="_blank">截图1</a>
                 </div>
             </div>
         </div>
