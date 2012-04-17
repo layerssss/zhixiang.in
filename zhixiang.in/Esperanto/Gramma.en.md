@@ -23,4 +23,4 @@ Don't use -n with the verb "esti" (estas, estis, estos, estu)
 
 ##Leciono03
 
-tri: numbers don't take the endings -j, -n.  
+tri: numbers as a adverb don't take the endings -j, -n.  
