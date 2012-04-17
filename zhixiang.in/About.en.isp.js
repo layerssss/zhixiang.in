@@ -5,7 +5,7 @@ var $subPage = "About";
 $load('master/en.master.js')({
     body: function () {
         /*-->
-<div class="row">Works or not?
+<div class="row">Works or not??????
     <div class="span10">
         <div class="well" id="about">
             <h2>
