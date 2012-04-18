@@ -111,6 +111,7 @@
     <Content Include="js\bootstrap.min.js" />
     <Content Include="js\jquery-1.7.1.min.js" />
     <Content Include="master\zh.master.js" />
+    <Content Include="robots.txt" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
