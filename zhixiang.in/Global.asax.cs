@@ -39,9 +39,11 @@ namespace zhixiangyin
                 new MarkdownServerPages.MarkdownRenderer(Server.MapPath("/") + "{0}.zh.md")
                 {
                     Load = load,
-                    Read = (subPage, file) =>
+                    Read = (subPage, file,found) =>
                     {
                         PolyglotServerPages.WebApplication.Preference = "zh";
+                        ispJs.WebApplication.Response.AddHeader("Content-Language", "zh-cn");
+                        thread404Status[System.Threading.Thread.CurrentThread.ManagedThreadId] = found;
                     },
                     PathTransforming = (path) => path.Replace('-', ispJs.Utility.PathSymbol)
                 });
@@ -52,9 +54,11 @@ namespace zhixiangyin
                 new MarkdownServerPages.MarkdownRenderer(Server.MapPath("/") + "{0}.en.md")
                 {
                     Load = load,
-                    Read = (subPage, file) =>
+                    Read = (subPage, file, found) =>
                     {
                         PolyglotServerPages.WebApplication.Preference = "en";
+                        ispJs.WebApplication.Response.AddHeader("Content-Language", "en");
+                        thread404Status[System.Threading.Thread.CurrentThread.ManagedThreadId] = found;
                     },
                     PathTransforming = (path) => path.Replace('-', ispJs.Utility.PathSymbol)
                 });
@@ -69,6 +73,7 @@ namespace zhixiangyin
             ispJs.WebApplication.HandleStart(Server);
         }
 
+        static Dictionary<int, bool> thread404Status = new Dictionary<int, bool>();
         protected void Session_Start(object sender, EventArgs e)
         {
 
@@ -81,7 +86,15 @@ namespace zhixiangyin
 
         protected void Application_PreSendRequestHeaders(object sender, EventArgs e)
         {
-
+            try
+            {
+                if (!thread404Status[System.Threading.Thread.CurrentThread.ManagedThreadId])
+                {
+                    thread404Status[System.Threading.Thread.CurrentThread.ManagedThreadId] = true;
+                    Response.StatusCode = 404;
+                }
+            }
+            catch (KeyNotFoundException) { }
             var path = Request.Path;
             var exts = new[] { "js", "css", "jpeg", "jpg", "gif", "png", "swf", "pdf" };
             var ext = "";
