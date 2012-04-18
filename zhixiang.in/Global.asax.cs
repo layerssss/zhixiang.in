@@ -91,7 +91,10 @@ namespace zhixiangyin
                 if (!thread404Status[System.Threading.Thread.CurrentThread.ManagedThreadId])
                 {
                     thread404Status[System.Threading.Thread.CurrentThread.ManagedThreadId] = true;
-                    Response.StatusCode = 404;
+                    if (Response.StatusCode == 200)
+                    {
+                        Response.StatusCode = 404;
+                    }
                 }
             }
             catch (KeyNotFoundException) { }
