@@ -3,13 +3,14 @@ $(function () {
     var t = null;
     $('a[href$=".zh"],a[href$=".en"],a[href$=".eo"]').pjax('#main', {
         fragment: '#main',
-        timeout: 3000
+        timeout: 5000
     })
     .live('click', function () {
         if (t == null) {
             clearTimeout(t);
         }
         $('.tooltip,#main>.container>:not(.navbar)').fadeOut('fast');
+        //$('#main').fadeOut();
         $('.loading').fadeIn('fast');
     })
 
@@ -29,6 +30,8 @@ $(function () {
     $(document).on('pjax:end', function () {
     }).on('pjax:end', function () {
         pgReady();
+    }).on('pjax:success', function () {
+        $('.tooltip,#main>.container>:not(.navbar)').stop().hide().fadeIn('fast');
     });
     pgReady();
     $('a.fancybox').fancybox({

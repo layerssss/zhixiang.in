@@ -1,3 +1,6 @@
+*.csproj
+*.config
+*.cs
 *.en
 *.zh
 *.eo
