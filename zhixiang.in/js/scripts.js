@@ -31,7 +31,7 @@ $(function () {
     }).on('pjax:end', function () {
         pgReady();
     }).on('pjax:success', function () {
-        $('.tooltip,#main>.container>:not(.navbar)').stop().hide().fadeIn('fast');
+        $('#main>.container>:not(.navbar)').hide().fadeIn('fast');
     });
     pgReady();
     $('a.fancybox').fancybox({
