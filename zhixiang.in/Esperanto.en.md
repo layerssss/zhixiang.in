@@ -8,8 +8,9 @@ I started to learn [Esperanto] in April this year. Althought it's a very-easy-to
    
 *  __[Complementary gramma notes ](Esperanto-Gramma.en)__  
 As mentioned above, [Kurso de Esperanto] is a great learning tool of Esperanto, but I find some gramma knowledge are missing in the learning flow. I'll try to list them here respectively.  
-
-
+*  __[Chinese Lessions](Esperanto-Chinese.en)__  
+The current version of [Kurso de Esperanto] doesn't contain Chinese translation. So I tried to translate them into Chinese, and put them online.
+ 
 
 
 
