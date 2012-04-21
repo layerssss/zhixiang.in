@@ -3,9 +3,6 @@
 $load('master/zh.master.js')({
     title: title,
     langs: langs,
-    body2:function(){
-    $($subPage);
-    },
     body: function () {
 
         /*-->
