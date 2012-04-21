@@ -8,7 +8,7 @@
    
 *  __[补充的语法知识](Esperanto-Gramma.zh)__  
 在实际使用过程中,我发现[Kurso de Esperanto]的课程在一开始漏掉了一些语法知识.在此记下以供他人参考.   
-*  __[课程的中文翻译版本](Esperanto-Chinese.en)__  
+*  __[课程的中文翻译版本](Esperanto-Chinese.zh)__  
 目前[Kurso de Esperanto]没有中文版本的课程,所以我尝试着将它翻译成中文,并放在网页上.  
 
 
