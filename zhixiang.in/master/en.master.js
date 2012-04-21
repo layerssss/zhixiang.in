@@ -38,6 +38,7 @@ if (typeof (arguments[0].title) != 'undefined' && arguments[0].title) { $((argum
     <script src="/js/fancyBox/helpers/jquery.fancybox-thumbs.js" type="text/javascript"></script>
     <script src="/js/fancyBox/jquery.mousewheel-3.0.6.pack.js" type="text/javascript"></script>
     <script src="/js/jquery.pjax.min.js" type="text/javascript"></script>
+    <script src="/js/jPlayer/jquery.jplayer.min.js" type="text/javascript"></script>
     <script type="text/javascript" src="/js/scripts.js">
     </script>
     <script src="/js/bootstrap.min.js" type="text/javascript"></script>
