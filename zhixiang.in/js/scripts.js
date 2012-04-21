@@ -10,7 +10,6 @@ $(function () {
             clearTimeout(t);
         }
         $('.tooltip,#main>.container>:not(.navbar)').fadeOut('fast');
-        //$('#main').fadeOut();
         $('.loading').fadeIn('fast');
     })
     $('a[href$=".mp3"]').live('click', function () {
@@ -36,15 +35,15 @@ $(function () {
     });
 
     var pgReady = function () {
-        //        if ($('#disqus_thread')[0]) {
-        //            t = setTimeout(function () {
-        //                t = null;
-        //                var disqus_shortname = 'zhixiangyin'; // required: replace example with your forum shortname
-        //                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        //                dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
-        //                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-        //            }, 1000);
-        //        }
+                if ($('#disqus_thread')[0]) {
+                    t = setTimeout(function () {
+                        t = null;
+                        var disqus_shortname = 'zhixiangyin'; // required: replace example with your forum shortname
+                        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+                        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                    }, 1000);
+                }
         $('.langnan').css('opacity', '0.5');
         $('[title]').tooltip({ placement: 'bottom' });
         $('a[href$=".mp3"]').append($('<i class="icon icon-volume-up"></i>'));
