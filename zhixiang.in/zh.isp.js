@@ -11,6 +11,8 @@ $load('master/zh.master.js')({
         /*-->
         <div class="row">
         <div class="span7">
+        <h1>{title}</h1>
+        <hr />
         {$content$}</div>
         <div class="span5">
         <div id="disqus_thread">
