@@ -46,7 +46,7 @@ if (typeof (arguments[0].title) != 'undefined') { $((arguments[0].title ? argume
     <!--*/
 if (typeof (arguments[0].head) == 'function') { arguments[0].head(); } /*-->
 </head>
-<body>
+<body data-spy="scroll">
     <div class="loader" style="display: none">
         <!--<img src="spin.gif">-->
         dddd</div>
@@ -88,10 +88,11 @@ if (typeof (arguments[0].head) == 'function') { arguments[0].head(); } /*-->
 arguments[0].body(); /*-->
             <hr>
             <footer>
-        <p>&copy; 尹志翔 2012 感谢拯救我于水深火热之中的
+        <p><span class="visible-phone"></span>&copy; 尹志翔 2012 感谢拯救我于水深火热之中的
         <a href="http://twitter.github.com/bootstrap/" target="_blank">Bootstrap</a>,
         <a href="https://github.com/layerssss/ispJs" target="_blank">ISP.js</a>
         <a href="http://pjax.heroku.com/" target="_blank">pjax</a>
+        
         </p>
       </footer>
         </div>

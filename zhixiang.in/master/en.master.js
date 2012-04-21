@@ -90,7 +90,7 @@ if (typeof (arguments[0].head) == 'function') { arguments[0].head(); } /*-->
 arguments[0].body(); /*-->
             <hr>
             <footer>
-        <p>&copy; Zhixiang Yin 2012 Thanks to my saviours: 
+        <p><span class="visible-phone"></span>&copy; Zhixiang Yin 2012 Thanks to my saviours: 
         <a href="http://twitter.github.com/bootstrap/" target="_blank">Bootstrap</a>,
         <a href="https://github.com/layerssss/ispJs" target="_blank">ISP.js</a>
         <a href="http://pjax.heroku.com/" target="_blank">pjax</a>
