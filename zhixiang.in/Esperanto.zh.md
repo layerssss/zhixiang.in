@@ -13,6 +13,5 @@
 
 
 
-
 [Kurso de Esperanto]:http://www.kurso.com.br/  
 [世界语]:http://en.wikipedia.org/wiki/Esperanto

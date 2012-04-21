@@ -13,6 +13,5 @@ The current version of [Kurso de Esperanto] doesn't contain Chinese translation.
  
 
 
-
 [Kurso de Esperanto]:http://www.kurso.com.br/  
 [Esperanto]:http://en.wikipedia.org/wiki/Esperanto
