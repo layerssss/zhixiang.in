@@ -20,13 +20,15 @@ $load('master/zh.master.js')({
             </ul>
             <!--*/
             }
-            /*-->
-            <ul class="nav nav-list toc">
-                <li class="nav-header">目录</li>
-                <!--*/for(var i =0;i<chapters.length;i++){var t=chapters[i];/*-->
-                <li><a href="#chapter{$i$}">{$t$}</a> </li>
-                <!--*/}/*-->
-            </ul>
+/*-->
+            <div class="toc">
+                <ul class="nav nav-list toc">
+                    <li class="nav-header">目录</li>
+                    <!--*/for(var i =0;i<chapters.length;i++){var t=chapters[i];/*-->
+                    <li><a href="#chapter{$i$}">{$t$}</a> </li>
+                    <!--*/}/*-->
+                </ul>
+            </div>
         </div>
     </div>
     <div class="span8">

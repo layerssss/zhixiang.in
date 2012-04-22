@@ -12,7 +12,7 @@ $load('master/en.master.js')({
         if (breadcrumb) {
             /*-->
             <ul class="breadcrumb">
-            <!--*/
+                <!--*/
             for (var btitle in breadcrumb) {/*-->
                 <li><a href="{$breadcrumb[btitle]$}.en">{$btitle$}</a> <span class="divider">/</span>
                 </li>
@@ -23,15 +23,17 @@ $load('master/en.master.js')({
             <!--*/
         }
         /*-->
-        <ul class="nav nav-list toc">
-        <li class="nav-header">Table of Contents</li>
-        <!--*/
+            <div class="toc">
+                <ul class="nav nav-list ">
+                    <li class="nav-header">Table of Contents</li>
+                    <!--*/
         for (var i = 0; i < chapters.length; i++) {
             var t = chapters[i]; /*-->
-                <li><a href="#chapter{$i$}">{$t$}</a> </li>
-                <!--*/
+                    <li><a href="#chapter{$i$}">{$t$}</a> </li>
+                    <!--*/
         } /*-->
-            </ul>
+                </ul>
+            </div>
         </div>
     </div>
     <div class="span8">
