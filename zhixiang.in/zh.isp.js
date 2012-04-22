@@ -21,7 +21,7 @@ $load('master/zh.master.js')({
             <!--*/
             }
             /*-->
-            <ul class="nav nav-list">
+            <ul class="nav nav-list toc">
                 <li class="nav-header">目录</li>
                 <!--*/for(var i =0;i<chapters.length;i++){var t=chapters[i];/*-->
                 <li><a href="#chapter{$i$}">{$t$}</a> </li>

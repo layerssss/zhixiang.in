@@ -46,7 +46,7 @@ if (typeof (arguments[0].title) != 'undefined') { $((arguments[0].title ? argume
     <!--*/
 if (typeof (arguments[0].head) == 'function') { arguments[0].head(); } /*-->
 </head>
-<body data-spy="scroll">
+<body data-spy="scroll" data-target=".toc">
     <div class="loader" style="display: none">
         <!--<img src="spin.gif">-->
         dddd</div>

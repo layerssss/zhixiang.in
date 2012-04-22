@@ -1,4 +1,3 @@
-/// <reference path="/ISPReferences/en.isp.js" />
 /*<!--*/
 $load('master/en.master.js')({
     title: title, 
@@ -24,7 +23,7 @@ $load('master/en.master.js')({
             <!--*/
         }
         /*-->
-        <ul class="nav nav-list">
+        <ul class="nav nav-list toc">
         <li class="nav-header">Table of Contents</li>
         <!--*/
         for (var i = 0; i < chapters.length; i++) {
