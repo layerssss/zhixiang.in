@@ -49,7 +49,6 @@ $load('master/en.master.js')({
                 powered by Disqus.</a></noscript>
     </div>
 </div>
-</div>
 <!--*/
 
     } 
