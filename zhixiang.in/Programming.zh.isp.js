@@ -2,6 +2,7 @@
 var lang = 'zh';
 var $subPage = "Programming";
 $load('master/zh.master.js')({
+    title: '程序员',
     body: function () { 
     /*-->
 <div class="row">
