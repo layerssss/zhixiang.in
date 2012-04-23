@@ -1,5 +1,3 @@
-///
-<reference path="/ISPReferences/master/en.master.js" />
 /*<!--*/
 var lang = 'en';
 var langs = typeof (arguments[0].langs) == 'undefined' ? null : arguments[0].langs;
@@ -58,11 +56,11 @@ if (typeof (arguments[0].head) == 'function') { arguments[0].head(); } /*-->
                     <div class="container">
                         <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"><span
                             class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
-                        </a><a class="brand" href="/">Zhixiang Yin</a>
+                        </a><a class="brand" href="/About.{$lang$}">Zhixiang Yin</a>
                         <div class="nav-collapse">
                             <ul class="nav">
-                                <li class="{$misc.getClassNav('About')$}{$misc.getClassNav('CV')$}"><a href="/About.{$lang$}">
-                                    About &amp; Programming</a></li>
+                                <li class="{$misc.getClassNav('Programming')$}{$misc.getClassNav('CV')$}"><a href="/Programming.{$lang$}">
+                                    Programming</a></li>
                                 <li class="divider-vertical"></li>
                                 <li class="{$misc.getClassNav('Esperanto')$}"><a href="/Esperanto.{$lang$}">Esperanto</a></li>
                                 <li class="divider-vertical"></li>

@@ -1,5 +1,4 @@
-﻿/// <reference path="/ISPReferences/master/zh.master.js" />
-/*<!--*/
+﻿/*<!--*/
 var lang = 'zh';
 var langs = typeof (arguments[0].langs) == 'undefined' ? null : arguments[0].langs;
 var misc = $load('inc/misc.inc.js')();
@@ -57,10 +56,10 @@ if (typeof (arguments[0].head) == 'function') { arguments[0].head(); } /*-->
                 <div class="container">
                     <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"><span
                         class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
-                    </a><a class="brand" href="/">尹志翔</a>
+                    </a><a class="brand" href="/About.{$lang$}">尹志翔</a>
                     <div class="nav-collapse">
                         <ul class="nav">
-                            <li class="{$misc.getClassNav('About')$}{$misc.getClassNav('CV')$}"><a href="/About.{$lang$}">关于 &amp; 编程</a></li>
+                            <li class="{$misc.getClassNav('Programming')$}{$misc.getClassNav('CV')$}"><a href="/Programming.{$lang$}">程序员</a></li>
                             <li class="divider-vertical"></li>
                             <li class="{$misc.getClassNav('Esperanto')$}"><a href="/Esperanto.{$lang$}">世界语</a></li>
                             <li class="divider-vertical"></li>
