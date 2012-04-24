@@ -29,3 +29,20 @@
 * -ej place
 * -em inclination,tendency
 * -end that should or must be done
+* -er component
+* -estr leader
+* -et little
+* -id offspring
+* -ig to make
+* -iĝ to become
+* -il instrument
+* -in female
+* -ind worthy
+* -ist person who does sth. as a profession
+* -nj forms female nicknames(root may be shortened)
+* -obl mutiple
+* -on forms fractions
+* -op forms groups
+* -ul person
+* -um
+* -uj container
