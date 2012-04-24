@@ -9,7 +9,8 @@ I started to learn [Esperanto] in April this year. Althought it's a very-easy-to
 *  __[Chinese Lessions](Esperanto-Chinese.en)__  
 The current version of [Kurso de Esperanto] doesn't contain a Chinese translation. So I tried to translate them into Chinese, and put them online.
 
-##Michael's Esperanto [Gramma-cheat-sheet](Esperanto-GrammaCheatSheet.en)
+##Michael's Esperanto Gramma Cheat-sheet
+[Gramma-cheat-sheet](Esperanto-GrammaCheatSheet.en)  
 
 
 [Kurso de Esperanto]:http://www.kurso.com.br/  
