@@ -10,8 +10,8 @@
 目前[Kurso de Esperanto]没有中文版本的课程,所以我尝试着将它翻译成中文,并放在网页上.  
 
 
-##头哥的世界语[语法小抄]  
-(Esperanto-GrammaCheatSheet.zh)  
+##头哥的世界语语法小抄
+[语法小抄](Esperanto-GrammaCheatSheet.zh)   
 
 [Kurso de Esperanto]:http://www.kurso.com.br/  
 [世界语]:http://en.wikipedia.org/wiki/Esperanto
