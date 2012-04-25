@@ -27,11 +27,11 @@ La fraŭlino ne amos min.
 Adiaŭ, mia amantino.
 Fortiĝu, catuluso.
 La poeto ne amos la fraŭlinon.
-Li ne laŭdos ĝian aperaĉon.
-Li ne donos al ĝi la rozojn.
-Li ne kisos ĝin.
+Li ne laŭdos ŝian aperaĉon.
+Li ne donos al ŝi la rozojn.
+Li ne kisos ŝin.
 Mi estas grande furioza.
-Mia fraŭlino, nun, mi esta bona.
+Mia fraŭlino, nun, mi estas bona.
 Sed, sen vi mi ne povas fortiĝi.
         </p>
         <p>
@@ -45,11 +45,11 @@ La fraŭlino ne amos min.
 Adiaŭ, mia amantino.
 Fortiĝu, catuluso.
 La poeto ne amos la fraŭlinon.
-Li ne laŭdos ĝian aperaĉon.
-Li ne donos al ĝi la rozojn.
-Li ne kisos ĝin.
+Li ne laŭdos ŝian aperaĉon.
+Li ne donos al ŝi la rozojn.
+Li ne kisos ŝin.
 Mi estas grande furioza.
-Mia fraŭlino, nun, mi esta bona.
+Mia fraŭlino, nun, mi estas bona.
 Sed, sen vi mi ne povas fortiĝi.
         </p>
         <p>
@@ -63,11 +63,11 @@ La fraŭlino ne amos min.
 Adiaŭ, mia amantino.
 Fortiĝu, catuluso.
 La poeto ne amos la fraŭlinon.
-Li ne laŭdos ĝian aperaĉon.
-Li ne donos al ĝi la rozojn.
-Li ne kisos ĝin.
+Li ne laŭdos ŝian aperaĉon.
+Li ne donos al ŝi la rozojn.
+Li ne kisos ŝin.
 Mi estas grande furioza.
-Mia fraŭlino, nun, mi esta bona.
+Mia fraŭlino, nun, mi estas bona.
 Sed, sen vi mi ne povas fortiĝi.
         <p>
             <a class="btn disabled" href="#" onclick="return false;">nenio &raquo;</a></p>
