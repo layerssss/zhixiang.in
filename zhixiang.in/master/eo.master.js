@@ -1,23 +1,23 @@
-/*<!--*/
-var lang = 'en';
+﻿/*<!--*/
+var lang = 'eo';
 var langs = typeof (arguments[0].langs) == 'undefined' ? null : arguments[0].langs;
 var misc = $load('inc/misc.inc.js')();
 /*--><!DOCTYPE html>
-<html lang="en">
+<html lang="eo">
 <head>
     <meta charset="utf-8">
     <title>
         <!--*/
-if (typeof (arguments[0].title) != 'undefined' && arguments[0].title) { $((arguments[0].title ? arguments[0].title : 'Untitled Page') + '-'); } /*-->
-        Zhixiang Yin</title>
+if (typeof (arguments[0].title) != 'undefined') { $((arguments[0].title ? arguments[0].title : 'ne tilola') + '-'); } /*-->
+        Mikelo</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
     <!-- Le styles -->
     <style type="text/css">
-        #main > .container
+        #main>.container
         {
-            margin-top: -4px;
+            margin-top:-4px;
         }
     </style>
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
@@ -51,49 +51,49 @@ if (typeof (arguments[0].head) == 'function') { arguments[0].head(); } /*-->
         dddd</div>
     <div id="main">
         <div class="container">
-            <div class="navbar">
-                <div class="navbar-inner">
-                    <div class="container">
-                        <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"><span
-                            class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
-                        </a><a class="brand" href="/About.{$lang$}">Zhixiang Yin</a>
-                        <div class="nav-collapse">
-                            <ul class="nav">
-                                <li class="{$misc.getClassNav('Programming')$}{$misc.getClassNav('CV')$}"><a href="/Programming.{$lang$}">
-                                    Programming</a></li>
-                                <li class="divider-vertical"></li>
-                                <li class="{$misc.getClassNav('Esperanto')$}"><a href="/Esperanto.{$lang$}">Esperanto</a></li>
-                                <li class="divider-vertical"></li>
-                                <li><a href="#" onclick="return false;">see me on:</a></li>
-                                <li><a href="https://github.com/layerssss/" target="_blank">Github</a></li>
-                                <li><a href="https://www.facebook.com/zhixiang.yin" target="_blank">Facebook</a></li>
-                                <li><a href="https://plus.google.com/u/0/photos/108058134179218385830/albums" target="_blank">
-                                    Picasa</a></li>
-                            </ul>
-                            <div style="float: right;">
-                                <img src="/img/loading.gif" class="loading" style="display: none; float: left; margin-top: 15px;" />
-                                <ul class="nav" style="">
-                                <li class="{$misc.getClassLang(lang,'eo',langs)$}"><a title="Esperanto" href="{$$subPage$}.eo">
+        <div class="navbar">
+            <div class="navbar-inner">
+                <div class="container">
+                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"><span
+                        class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+                    </a><a class="brand" href="/About.{$lang$}">Mikelo</a>
+                    <div class="nav-collapse">
+                        <ul class="nav">
+                            <li class="{$misc.getClassNav('Programming')$}{$misc.getClassNav('CV')$}"><a href="/Programming.{$lang$}">programisto</a></li>
+                            <li class="divider-vertical"></li>
+                            <li class="{$misc.getClassNav('Esperanto')$}"><a href="/Esperanto.{$lang$}">esperantisto</a></li>
+                            <li class="divider-vertical"></li>
+                            <li><a href="#" onclick="return false;">Mi estas en:</a></li>
+                            <li><a href="https://github.com/layerssss/" target="_blank">Githubo</a></li>
+                            <li><a href="https://www.facebook.com/zhixiang.yin" target="_blank">Facebuko</a></li>
+                            <li><a href="https://plus.google.com/u/0/photos/108058134179218385830/albums" target="_blank">
+                                Pikaso</a></li>
+                        </ul>
+                        <div style="float: right;">
+                            <img src="/img/loading.gif" class="loading" style="display:none;float:left;margin-top:15px;" />
+                            <ul class="nav" style="">
+                                <li class="{$misc.getClassLang(lang,'eo',langs)$}"><a title="Esperanta" href="{$$subPage$}.eo">
                                     <img src="/img/eo.jpg" /></a></li>
-                                    <li class="{$misc.getClassLang(lang,'en',langs)$}"><a title="English" href="{$$subPage$}.en">
-                                        <img src="/img/en.jpg" /></a></li>
-                                    <li class="{$misc.getClassLang(lang,'zh',langs)$}"><a title="Chinese" href="{$$subPage$}.zh">
-                                        <img src="/img/zh.jpg" /></a></li>
-                                </ul>
-                            </div>
+                                <li class="{$misc.getClassLang(lang,'en',langs)$}"><a title="angla" href="{$$subPage$}.en">
+                                    <img src="/img/en.jpg" /></a></li>
+                                <li class="{$misc.getClassLang(lang,'zh',langs)$}"><a title="Ĉinia" href="{$$subPage$}.zh">
+                                    <img src="/img/zh.jpg" /></a></li>
+                            </ul>
                         </div>
-                        <!--/.nav-collapse -->
                     </div>
+                    <!--/.nav-collapse -->
                 </div>
             </div>
+        </div>
             <!--*/
 arguments[0].body(); /*-->
             <hr>
             <footer>
-        <p><span class="visible-phone"></span>&copy; Zhixiang Yin 2012 Thanks to my saviours: 
+        <p><span class="visible-phone"></span>&copy; Mikelo 2012 dankas tiu, kiu helpis mi, 
         <a href="http://twitter.github.com/bootstrap/" target="_blank">Bootstrap</a>,
         <a href="https://github.com/layerssss/ispJs" target="_blank">ISP.js</a>
         <a href="http://pjax.heroku.com/" target="_blank">pjax</a>
+        
         </p>
       </footer>
         </div>

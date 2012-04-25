@@ -72,6 +72,8 @@ if (typeof (arguments[0].head) == 'function') { arguments[0].head(); } /*-->
                         <div style="float: right;">
                             <img src="/img/loading.gif" class="loading" style="display:none;float:left;margin-top:15px;" />
                             <ul class="nav" style="">
+                                <li class="{$misc.getClassLang(lang,'eo',langs)$}"><a title="世界语" href="{$$subPage$}.eo">
+                                    <img src="/img/eo.jpg" /></a></li>
                                 <li class="{$misc.getClassLang(lang,'en',langs)$}"><a title="英语" href="{$$subPage$}.en">
                                     <img src="/img/en.jpg" /></a></li>
                                 <li class="{$misc.getClassLang(lang,'zh',langs)$}"><a title="中文" href="{$$subPage$}.zh">
