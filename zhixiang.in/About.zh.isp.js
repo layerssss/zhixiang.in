@@ -61,7 +61,7 @@ $load('master/zh.master.js')({
         <p><br/><br/><br/><br/>
         &laquo;这个中文翻译是不是很酷,可惜不是我的原创哦,</p>
         <p>
-            <a class="btn btn-info" href="http://www.keith.deathwinter.com/archives/540" target="_blank">去看看原创 &raquo;</a></p>
+            <a class="btn btn-warning" href="http://www.keith.deathwinter.com/archives/540" target="_blank">去看看原创 &raquo;</a></p>
     </div>
 </div>
 <!--*/
