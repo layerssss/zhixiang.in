@@ -58,19 +58,10 @@ $load('master/zh.master.js')({
     <div class="span4">
         <h2>
             ...</h2>
+        <p><br/><br/><br/><br/>
+        &laquo;这个中文翻译是不是很酷,可惜不是我的原创哦,</p>
         <p>
-我已不在妞心上。
-再见，不把妞儿看。
-卡塔卢斯还能扛：
-湿人他不爱这女郎，
-不会夸她相貌赞，
-玫瑰花儿不献上，
-甚至还不亲一趟！
-无名大火烧胸上！
-妞儿啊，如今我还能扛
-——但没有了你，我心暗伤。
-        <p>
-            <a class="btn disabled" href="#" onclick="return false;">木有详情 &raquo;</a></p>
+            <a class="btn btn-info" href="http://www.keith.deathwinter.com/archives/540" target="_blank">去看看原创 &raquo;</a></p>
     </div>
 </div>
 <!--*/
