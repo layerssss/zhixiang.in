@@ -15,7 +15,7 @@ $load('master/en.master.js')({
     <p>
         Hi, this is a personal webpage of that guy on the right.</p>
     <p>
-        <a class="btn btn-primary btn-large" onclick="$('.span4 .btn').hide().addClass('btn-info').fadeIn(function(){ $(this).removeClass('btn-info');});">Learn more &raquo;</a></p>
+        <a class="btn btn-large" onclick="$('.span4 .btn').hide().addClass('btn-info').fadeIn(function(){ $(this).removeClass('btn-info');});">Learn more &raquo;</a></p>
 </div>
 <!-- Example row of columns -->
 <div class="row">

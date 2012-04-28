@@ -15,7 +15,7 @@ $load('master/zh.master.js')({
     <p>
         你好,这是右边那货的个人页面.</p>
     <p>
-        <a class="btn btn-primary btn-large" onclick="$('.span4 .btn').hide().addClass('btn-info').fadeIn(function(){ $(this).removeClass('btn-info');});">了解详情 &raquo;</a></p>
+        <a class="btn btn-large" onclick="$('.span4 .btn').hide().addClass('btn-info').fadeIn(function(){ $(this).removeClass('btn-info');});">了解详情 &raquo;</a></p>
 </div>
 <!-- Example row of columns -->
 <div class="row">
@@ -61,7 +61,7 @@ $load('master/zh.master.js')({
         <p><br/><br/><br/><br/>
         &laquo;这个中文翻译是不是很酷,可惜不是我的原创哦,</p>
         <p>
-            <a class="btn btn-warning" href="http://www.keith.deathwinter.com/archives/540" target="_blank">去看看原创 &raquo;</a></p>
+            <a class="btn" href="http://www.keith.deathwinter.com/archives/540" target="_blank">去看看原创 &raquo;</a></p>
     </div>
 </div>
 <!--*/

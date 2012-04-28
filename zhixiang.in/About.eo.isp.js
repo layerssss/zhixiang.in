@@ -15,7 +15,7 @@ $load('master/eo.master.js')({
     <p>
         Ĉi tio estas mia persona retpaĝo.</p>
     <p>
-        <a class="btn btn-primary btn-large" onclick="$('.span4 .btn').hide().addClass('btn-info').fadeIn(function(){ $(this).removeClass('btn-info');});">scii detalon &raquo;</a></p>
+        <a class="btn btn-large" onclick="$('.span4 .btn').hide().addClass('btn-info').fadeIn(function(){ $(this).removeClass('btn-info');});">scii detalon &raquo;</a></p>
 </div>
 <!-- Example row of columns -->
 <div class="row">
