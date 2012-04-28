@@ -49,7 +49,7 @@ $(function () {
     $(window).scroll(function () {
         if ($('.visible-phone').css('display') == 'none') {
             var lt60px = $('html').scrollTop() < 60;
-            $('.navmenu').css({ 'position': lt60px ? 'absolute' : 'fixed', top: lt60px ? 60 : 0, 'zIndex': 10000 });
+            $('.navmenu').css({ 'position': lt60px ? 'absolute' : 'fixed', top: lt60px ? 60 : 0, 'zIndex': 10 });
         }
         if ($('html').scrollTop() + $('html')[0].clientHeight - $('html').height() < -5) {
             return;
