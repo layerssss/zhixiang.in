@@ -1,0 +1,3 @@
+﻿Diary:Exciting
+=============================
+wait, I'm still writing it...
