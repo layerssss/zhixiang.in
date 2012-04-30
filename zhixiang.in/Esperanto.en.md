@@ -13,9 +13,6 @@ As a beginner, I recorded the process I got started, what I did, and what I felt
 * [Do you have __time__](Esperanto-Diary2.en)?  
    There's a not-quite-old saying in Chinese: 
    > time is water in sponge, which we can always get more after squezing a little bit.  
-
-* [You need some __vanities__](Esperanto-Diary3.en)!  
-   Yep, we need that. 
     
 ----------------------  
 ## Treasure Island
