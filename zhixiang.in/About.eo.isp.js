@@ -23,15 +23,15 @@ $load('master/eo.master.js')({
         <h2>
             programisto</h2>
         <p>
-La fraŭlino ne amos min.
-Adiaŭ, mia amantino.
+La knabino ne amas min.
+Adiaŭ, mia knabino.
 Fortiĝu, catuluso.
-La poeto ne amos la fraŭlinon.
+La poeto ne amos la knabinon.
 Li ne laŭdos ŝian aperaĉon.
 Li ne donos al ŝi la rozojn.
 Li ne kisos ŝin.
-Mi estas grande furioza.
-Mia fraŭlino, nun, mi estas bona.
+Mi kolero estas grandan.
+Mia knabino, nun, mi estas bona.
 Sed, sen vi mi ne povas fortiĝi.
         </p>
         <p>
@@ -41,15 +41,15 @@ Sed, sen vi mi ne povas fortiĝi.
         <h2>
             esperantisto</h2>
         <p>
-La fraŭlino ne amos min.
-Adiaŭ, mia amantino.
+La knabino ne amas min.
+Adiaŭ, mia knabino.
 Fortiĝu, catuluso.
-La poeto ne amos la fraŭlinon.
+La poeto ne amos la knabinon.
 Li ne laŭdos ŝian aperaĉon.
 Li ne donos al ŝi la rozojn.
 Li ne kisos ŝin.
-Mi estas grande furioza.
-Mia fraŭlino, nun, mi estas bona.
+Mi kolero estas grandan.
+Mia knabino, nun, mi estas bona.
 Sed, sen vi mi ne povas fortiĝi.
         </p>
         <p>
@@ -59,15 +59,15 @@ Sed, sen vi mi ne povas fortiĝi.
         <h2>
             ...</h2>
         <p>
-La fraŭlino ne amos min.
-Adiaŭ, mia amantino.
+La knabino ne amas min.
+Adiaŭ, mia knabino.
 Fortiĝu, catuluso.
-La poeto ne amos la fraŭlinon.
+La poeto ne amos la knabinon.
 Li ne laŭdos ŝian aperaĉon.
 Li ne donos al ŝi la rozojn.
 Li ne kisos ŝin.
-Mi estas grande furioza.
-Mia fraŭlino, nun, mi estas bona.
+Mi kolero estas grandan.
+Mia knabino, nun, mi estas bona.
 Sed, sen vi mi ne povas fortiĝi.
         <p>
             <a class="btn disabled" href="#" onclick="return false;">nenio &raquo;</a></p>
