@@ -107,7 +107,7 @@ $load('master/zh.master.js')({
                 <div class="span2">
                     2012年02月</div>
                 <div class="span3">
-                    <a href="http://jacksonmovieman.com/" target="_blank">http://jacksonmovieman.com/</a>
+                    <!--<a href="http://jacksonmovieman.com/" target="_blank">http://jacksonmovieman.com/</a>-->
                 </div>
             </div>
         </div>
