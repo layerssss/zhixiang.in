@@ -2,7 +2,7 @@
 ===========================================  
 ##Interesting Clash  
 
-Today I take a long-distance coach from Guangzhou back to Zhuhai. In Guangzhou, when headding into the coach, a girl with a student-look inquired the driver, 'Sir, should the coach gonna stop at Gongbei, right? The ticketwomen was there. So the driver just replied with a fooling smill 'no, we're not going to Gongbei'. And the ticketwomen instantle apologized to the girl 'Oh, he's justing joking. Forget about him.' The driver went on, 'We're not going to Gongbei. And I will sell you as soon as we get to Zhuhai. Haha, got you a _direct coach_ or something." The girl surely knew that the drive is joking, but she didn't come accross of him, so she just murmured:'aha? You won't get much money from selling me, right?'  
+Today I took a long-distance coach from Guangzhou back to Zhuhai. In Guangzhou, when headding into the coach, a girl with a student-look inquired the driver, 'Sir, should the coach gonna stop at Gongbei, right? The ticketwomen was there. So the driver just replied with a fooling smill 'no, we're not going to Gongbei'. And the ticketwomen instantle apologized to the girl 'Oh, he's justing joking. Forget about him.' The driver went on, 'We're not going to Gongbei. And I will sell you as soon as we get to Zhuhai. Haha, got you a _direct coach_ or something." The girl surely knew that the drive is joking, but she didn't come accross of him, so she just murmured:'aha? You won't get much money from selling me, right?'  
 
 ##What Did the Driver Originally Mean?
 
