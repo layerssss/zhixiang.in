@@ -16,8 +16,10 @@ Damn, I've been piggy-sold again today.
 
 ##What is Piggy-selling?
 
-Piggy originnaly means those Chinese worker been sold as slaves abroad more than one hundred years ago. They're mostly came from provinces of Guangdong and Fujian. During 70s-80s, because of the Open&Revolution policy, lots of workers from other provinces in China came into Guangdong, bring lots prosperitis to Guangdong's coach transportation. Therefore, lot of illigal coach was running arround and sometimes cheat passengers for dropping them off at half way, by some excuses like 'something wrong with the coach'. Guangdong people started to call this kind of cheating as piggy-selling.
+[Piggy] originnaly means those Chinese workers been sold as slaves abroad more than one hundred years ago. They're mostly came from provinces of Guangdong and Fujian. During 70s-80s, because of the Open&Revolution policy, lots of workers from other provinces in China came into Guangdong, bring lots prosperitis to Guangdong's coach transportation. Therefore, lot of illigal coach was running arround and sometimes cheat passengers for dropping them off at half way, by some excuses like 'something wrong with the coach'. Guangdong people started to call this kind of cheating as piggy-selling.
 
 After that, those kind of illigal cheating became fewer. But it sometimes still existed. Those drivers became shrewder, by calling another coach to take passengers and theirselves just ran away. Then the another coach's driver can drop passengers easier because then nobody's authoritive about where should the destination be. 
 
 Now we nearly don't see this anymore. Because everybody learnt what is it and how to protect ourselves from been piggy-sold. But Guangdong people are still happy at adapting this phrase, and they started to use it everywhere, instead of just coach transportation. Eg. you're reparing your friend's computer. And you want to give it up and you don't wanna let down your friend, so you give it to somebody else and tell your friends 'Just call him, he'll take care that.' Then your friends can say to you 'Ok, then you just sold me.'
+
+[Piggy]:http://zh.wikipedia.org/wiki/%E8%8F%AF%E5%B7%A5
