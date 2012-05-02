@@ -2,13 +2,13 @@
 ===========================================  
 ##Interesting Clash  
 
-Today I took a long-distance coach from Guangzhou back to Zhuhai. In Guangzhou, when headding into the coach, a girl with a student-look inquired the driver, 'Sir, should the coach gonna stop at Gongbei, right? The ticketwomen was there. So the driver just replied with a fooling smill 'no, we're not going to Gongbei'. And the ticketwomen instantle apologized to the girl 'Oh, he's justing joking. Forget about him.' The driver went on, 'We're not going to Gongbei. And I will sell you as soon as we get to Zhuhai. Haha, got you a _direct coach_ or something." The girl surely knew that the drive is joking, but she didn't come accross of him, so she just murmured:'aha? You won't get much money from selling me, right?'  
+Today I took a long-distance coach from Guangzhou back to Zhuhai. In Guangzhou, when headding into the coach, a girl with a student-look inquired the driver, 'Sir, this coach gonna stop at Gongbei, right? The ticketwomen was there. So the driver just replied with a fooling smill 'no, we're not going to Gongbei'. And the ticketwomen instantle apologized to the girl 'Oh, he's justing joking. Forget about him.' The driver went on, 'We're not going to Gongbei. And I will sell you as soon as we get to Zhuhai. Haha, got you a _direct coach_ or something." The girl surely knew that the driver is joking, but she didn't come accross of him, so she just murmured:'aha? You won't get much money from selling me, right?'  
 
 ##What Did the Driver Originally Mean?
 
-The driver said 'I will sell you as soon as we get to Zhuhai'. Lots of people might thoulght, is the driver's joke too hash. The girl is just a student from another town. But you're using _humen trading_ to make jokes. What if you frightened her?
+The driver said 'I will sell you as soon as we get to Zhuhai'. Lots of people might thoulght, is the driver's joke too hash? The girl is just a student from another town. But you're using _humen trading_ to make jokes. What if you frightened her?
 
-Actually driver's 'I will sell you' means 'I will piggy-sell you' which completely didn't refer to _humen trading_. Piggy-sell is a konw not only a word in cantonese, but also in vocabulary of Madarin spoken by people who live in Guangdong. I remember that before I went to university, one of my relatives tell me to take care of myself, don't be piggy-sold by coach drivers. And I was instantly frightened, until I found piggy-selling's meanning on Internet. And it's not as frightening as it might looks like.
+Actually driver's 'I will sell you' means 'I will piggy-sell you' which completely didn't refer to _humen trading_. Piggy-sell is a now not only a word in Cantonese, but also in vocabulary of Madarin spoken by people who live in Guangdong. I remember that before I went to university, one of my relatives tell me to take care of myself, don't be piggy-sold by coach drivers. And I was instantly frightened, until I found piggy-selling's meanning on Internet. And it's not as frightening as it might looks like.
 
 Just like, Guangdong people may sometimes say:
 
