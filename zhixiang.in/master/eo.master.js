@@ -57,7 +57,7 @@ if (typeof (arguments[0].head) == 'function') { arguments[0].head(); } /*-->
                 <div class="container">
                     <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"><span
                         class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
-                    </a><a class="brand" href="/About.{$lang$}">Mikelo</a>
+                    </a><a class="brand" href="/About.{$lang$}">ĝieŝo</a>
                     <div class="nav-collapse">
                         <ul class="nav">
                             <li class="{$misc.getClassNav('Programming')$}{$misc.getClassNav('CV')$}"><a href="/Programming.{$lang$}">programisto</a></li>
