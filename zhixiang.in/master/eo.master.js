@@ -2,7 +2,6 @@
 var lang = 'eo';
 var langs = typeof (arguments[0].langs) == 'undefined' ? null : arguments[0].langs;
 var misc = $load('inc/misc.inc.js')();
-
 /*--><!DOCTYPE html>
 <html lang="eo">
 <head>
