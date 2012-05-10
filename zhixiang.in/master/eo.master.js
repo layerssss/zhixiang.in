@@ -9,7 +9,7 @@ var misc = $load('inc/misc.inc.js')();
     <title>
         <!--*/
 if (typeof (arguments[0].title) != 'undefined') { $((arguments[0].title ? arguments[0].title : 'ne tilola') + '-'); } /*-->
-        ĝiŝo</title>
+        Mikelo</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -57,7 +57,7 @@ if (typeof (arguments[0].head) == 'function') { arguments[0].head(); } /*-->
                 <div class="container">
                     <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"><span
                         class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
-                    </a><a class="brand" href="/About.{$lang$}">ĝiŝo</a>
+                    </a><a class="brand" href="/About.{$lang$}">Mikelo</a>
                     <div class="nav-collapse">
                         <ul class="nav">
                             <li class="{$misc.getClassNav('Programming')$}{$misc.getClassNav('CV')$}"><a href="/Programming.{$lang$}">programisto</a></li>
