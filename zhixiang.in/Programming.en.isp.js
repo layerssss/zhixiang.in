@@ -67,10 +67,10 @@ $load('master/en.master.js')({
         <div class="well">
             <a href="img/photo_big.jpg" title="My self-portrait" class="fancybox"><img alt="Zhixiang Yin" src="img/photo.jpg" style="width: 100%; max-width: 150px;" /></a>
         </div>
-        <div class="well">
+        <!--<div class="well">
             <p>
                 I'm looking for a job as <em>a .NET engineer</em> or <em>a front-side developer</em>. Learn more about me in <a class="btn" href="CV.{$lang$}">My CV</a></p>
-        </div>
+        </div>-->
     </div>
 </div>
 <!--*/

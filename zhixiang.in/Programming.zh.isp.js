@@ -64,10 +64,10 @@ $load('master/zh.master.js')({
         <div class="well">
             <a href="img/photo_big.jpg" title="我的自画像" class="fancybox"><img alt="尹志翔" src="img/photo.jpg" style="width: 100%; max-width: 150px;" /></a>
         </div>
-        <div class="well">
+        <!--<div class="well">
             <p>
                 我正在寻找一份<em>.NET工程师</em>或者<em>前端程序员</em>的工作，您可以点击<a class="btn" href="CV.{$lang$}">我的简历</a>查看我的详细资料。</p>
-        </div>
+        </div>-->
     </div>
 </div>
 <!--*/
