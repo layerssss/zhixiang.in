@@ -2,7 +2,6 @@
 =============  
 
 I started to learn [Esperanto] in April this year. Althought it's a very-easy-to-learn language, I'm very slow at it, because I don't have lots of time. So for me, I will spend 1 hour per day on it. 
-As a beginner, I recorded the process I got started, what I did, and what I felt, also here can be found some useful resources for you! Hope you enjoy!
 
 ----------------------  
 ## Treasure Island
