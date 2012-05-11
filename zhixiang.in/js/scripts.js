@@ -1,4 +1,14 @@
 ﻿
+var modal = function (header, callback) {
+    $('<div></div>').appendTo('body').load('/piece/bootstrap.modal.htm', function () {
+        $(this).find('.modal-header h3').text(header);
+        $(this).find('.modal').modal('show').on('hidden', function () {
+            $(this).parent().remove();
+        });
+        var ui = { footer: $(this).find('.modal-footer')[0] };
+        $.proxy(callback, $(this).find('.modal-body')[0])(ui);
+    });
+};
 $(function () {
     $('a[href$=".zh"],a[href$=".en"],a[href$=".eo"]').pjax('#main', {
         fragment: '#main',
@@ -30,6 +40,28 @@ $(function () {
         } else {
             this.audio.jPlayer("play");
         }
+        return false;
+    });
+    $('a[href$=".mp4"]').live('click', function () {
+        var url = $(this).attr('href');
+        modal('Playing Video', function () {
+            $(this).load('/piece/jplayer.video.htm', function () {
+                $(this).css('padding', 0).children('div').css('width',560);
+                $(this).find('.jp-jplayer').jPlayer({
+                    ready: function () {
+                        $(this).jPlayer("setMedia", {
+                            m4v: url
+                        }).jPlayer('play');
+                    },
+                    swfPath: "/js/jPlayer",
+                    supplied: "m4v",
+                    size: {
+                        width: '560px',
+                        height: '300px'
+                    }
+                });
+            });
+        })
         return false;
     });
     window.onresize = function () {
