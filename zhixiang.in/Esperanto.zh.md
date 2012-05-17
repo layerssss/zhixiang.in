@@ -21,7 +21,7 @@
 推荐使用[lernu!]页面右边的在线字典哦.  
 
 #### Mazi, granda mazi!
-这是个经典的[世界语]教学动画系列.它们是针对初学者的.你可以在去此在线观赏:[第一集](/Esperanto/mazi-telefono-1.mp4) [第二集](/Esperanto/mazi-telefono-2.mp4).  
+这是个经典的[世界语]教学动画系列.它们是针对初学者的.你可以在去此在线观赏:[第一集](http://118.139.187.208/mazi-telefono-1.mp4) [第二集](http://118.139.187.208/mazi-telefono-1.mp4).  
 > 如果你在墙外, 你应该去[这里(YouTube)](http://www.youtube.com/watch?v=mWbyXVSiCxw)观看.  
 
 #### [世界语在线语法/拼写检查器](http://beta.visl.sdu.dk/lingvohelpilo/)
@@ -30,6 +30,7 @@
 #### [世界时间](http://esperantofre.com/mondhoro.htm)
 几点了?
 
+[test](/intro.mp4)
 [lernu!]:http://zh-cn.lernu.net/
 [Kurso de Esperanto]:http://www.kurso.com.br/  
 [世界语]:http://en.wikipedia.org/wiki/Esperanto

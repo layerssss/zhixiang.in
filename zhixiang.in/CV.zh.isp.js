@@ -36,7 +36,8 @@ $load('master/zh.master.js')({
         <ul>
             <li>熟练进行.NET开发，对Framework中很多平台有长期开发经验</li>
             <li>熟练运用JavaScript、C#、C、C++进行编程</li>
-            <li>掌握Web标准，熟悉JQuery等流行前端库和技术</li>
+            <li>掌握Web标准,理解并能实际应用语义化.</li>
+            <li>熟悉JQuery等流行前端库和技术,能熟练使用JavaScript进行浏览器端开发.</li>
             <li>设计模式基础扎实，能够在实际开发中运用</li>
             <li>理解TCP/IP中常用协议的原理，熟悉HTTP等与万维网相关的协议</li>
             <li>熟悉Mashup开发方式，熟悉常用的数据交换格式及处理方式</li>
