@@ -1,6 +1,4 @@
-﻿///
-<reference path="/ISPReferences/CV.zh.isp.js" />
-/*<!--*/
+﻿/*<!--*/
 $subPage = 'CV';
 $load('master/zh.master.js')({
     title: '简历',
@@ -68,7 +66,7 @@ $load('master/zh.master.js')({
                 软件工程</dd>
             <dt>外语：</dt>
             <dd>
-                英语、世界语、意大利语</dd>
+                英语、世界语</dd>
         </dl>
     </div>
     <div class="span12">
