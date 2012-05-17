@@ -35,7 +35,7 @@ $load('master/zh.master.js')({
             职业能力：</h3>
         <ul>
             <li>熟练进行.NET开发，对Framework中很多平台有长期开发经验</li>
-            <li>熟练运用JavaScript、C#、C、C++进行编程</li>
+            <li>熟练运用JavaScript、C#、C进行编程</li>
             <li>掌握Web标准,理解并能实际应用语义化.</li>
             <li>熟悉JQuery等流行前端库和技术,能熟练使用JavaScript进行浏览器端开发.</li>
             <li>设计模式基础扎实，能够在实际开发中运用</li>
@@ -152,7 +152,7 @@ $load('master/zh.master.js')({
                 <div class="span2">
                     2011年10月</div>
                 <div class="span3">
-                    <a href="http://build.xunnlv.com/" target="_blank">http://build.xunnlv.com/</a>
+                    <a href="http://admin.xunnlv.com/Lodge/?lodge=lijiangxiaoqiao#root" target="_blank">http://admin.xunnlv.com/Lodge/?lodge=lijiangxiaoqiao#root</a><br />用户名: coolzilj@qq.com;密码:456456
                 </div>
             </div>
         </div>
