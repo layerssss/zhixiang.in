@@ -1,12 +1,11 @@
-﻿#  
-
+﻿#
 ##关于他
 尹志翔是:
 
-* 一个前端工程师
-* 一个C#程序员
-* 一个世界语者
-* 一个小清新
+* 一个[前端工程师](http://g.zhixiang.in/)
+* 一个[C#程序员](/Programming.zh)
+* 一个[世界语者](/Esperanto.zh)
+* 一个[求生之路中的幸存者](http://steamcommunity.com/id/layerssss)
 
 He looks like↓
 

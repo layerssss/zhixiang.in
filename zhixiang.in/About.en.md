@@ -2,10 +2,10 @@
 ##About him
 Zhixiang Yin<span class="badge">_aka. Michael Yin_</span> is:
 
-* a front end engineer
-* a C# programmer
-* an Esperanto speaker
-* a zombie killer.
+* a [front-end engineer](http://g.zhixiang.in/)
+* a [C# programmer](Programming.en)
+* an [Esperanto speaker](Esperanto.en)
+* a [zombie killer.](http://steamcommunity.com/id/layerssss)
 
 He looks like↓
 
