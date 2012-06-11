@@ -69,8 +69,6 @@ if (typeof (arguments[0].head) == 'function') { arguments[0].head(); } /*-->
                                 <li><a href="#" onclick="return false;">see me on:</a></li>
                                 <li><a href="https://github.com/layerssss/" target="_blank">Github</a></li>
                                 <li><a href="https://www.facebook.com/zhixiang.yin" target="_blank">Facebook</a></li>
-                                <li><a href="https://plus.google.com/u/0/photos/108058134179218385830/albums" target="_blank">
-                                    Picasa</a></li>
                             </ul>
                             <div style="float: right;">
                                 <img src="/img/loading.gif" class="loading" style="display: none; float: left; margin-top: 15px;" />
