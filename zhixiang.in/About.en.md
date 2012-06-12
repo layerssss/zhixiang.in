@@ -2,7 +2,7 @@
 ##About him
 Zhixiang Yin<span class="badge">_aka. Michael Yin_</span> is:
 
-* a [front-end engineer](http://fee.zhixiang.in/)
+* a [front-end engineer](http://felab.zhixiang.in/)
 * a [C# programmer](Programming.en)
 * an [Esperanto speaker](Esperanto.en)
 * a [zombie killer.](http://steamcommunity.com/id/layerssss)
