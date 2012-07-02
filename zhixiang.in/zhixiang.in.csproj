@@ -150,7 +150,6 @@
     <None Include="js\jPlayer\blue.monday\jPlayer_blue.monday_extd.psd" />
     <None Include="js\jPlayer\blue.monday\spirites_blue.monday_2011.psd" />
     <None Include="Programming\StupidPuthon.en.md" />
-    <None Include="Workshop\StupidGraduationThesis.zh.md" />
     <None Include="About.en.md" />
     <None Include="About.zh.md" />
     <None Include="About.eo.md" />
@@ -179,6 +178,9 @@
     <None Include="CV.en.pdf" />
     <None Include="CV.zh.pdf" />
     <None Include="Esperanto.en.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Workshop\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
