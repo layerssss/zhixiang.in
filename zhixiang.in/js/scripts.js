@@ -10,14 +10,6 @@ var modal = function (header, callback) {
     });
 };
 $(function () {
-    $('a[href$=".zh"],a[href$=".en"],a[href$=".eo"]').pjax('#main', {
-        fragment: '#main',
-        timeout: 5000
-    })
-    .live('click', function () {
-        $('.tooltip,#main>.container>:not(.navbar)').fadeOut('fast');
-        $('.loading').fadeIn('fast');
-    })
     $('a[href$=".mp3"]').live('click', function () {
         $(this).children('i').addClass('icon-white');
         if (!this.audio) {
@@ -100,12 +92,6 @@ $(function () {
         $('[title]').tooltip({ placement: 'bottom' });
         $('a[href$=".mp3"]').append($('<i class="icon icon-volume-up"></i>'));
     };
-    $(document).on('pjax:end', function () {
-    }).on('pjax:end', function () {
-        pgReady();
-    }).on('pjax:success', function () {
-        $('#main>.container>:not(.navbar)').hide().fadeIn('fast');
-    });
     pgReady();
     $('a.fancybox').fancybox({
         helpers: {
