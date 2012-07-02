@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E4FFC578-74BD-465A-82F4-E8FAB57BA363}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>zhixiangyin</RootNamespace>
+    <AssemblyName>zhixiangyin</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ispJs, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Desktop\MONO\ispJs\bin\ispJs.dll</HintPath>
+    </Reference>
+    <Reference Include="MarkdownServerPages">
+      <HintPath>..\..\ispJs.org\MarkdownServerPages\bin\Debug\MarkdownServerPages.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="PolyglotServerPages">
+      <HintPath>..\..\ispJs.org\PolyglotServerPages\bin\Debug\PolyglotServerPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="css\bootstrap-responsive.min.css" />
+    <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\stylesheet.css" />
+    <Content Include="CV.en.jpg" />
+    <Content Include="CV.zh.isp.js" />
+    <Content Include="CV.zh.jpg" />
+    <Content Include="eo.isp.js" />
+    <None Include="css\bootstrap\variables.less" />
+    <None Include="Esperanto\Diary1.en.md" />
+    <None Include="Esperanto\GrammaCheatSheet.en.md" />
+    <None Include="Esperanto\Chinese\tradukoj.zh.md" />
+    <None Include="Esperanto\Chinese\Leciono1.zh.md" />
+    <None Include="Esperanto\Diary2.en.md" />
+    <Content Include="img\loading.gif" />
+    <Content Include="img\en.jpg" />
+    <Content Include="img\i_speak_esperanto.jpg" />
+    <Content Include="img\photo.jpg" />
+    <Content Include="img\screenshots\afe.png" />
+    <Content Include="img\screenshots\gc1.png" />
+    <Content Include="img\screenshots\gc2.png" />
+    <Content Include="img\screenshots\gc3.png" />
+    <Content Include="img\screenshots\lshop.png" />
+    <Content Include="img\screenshots\lwaker.png" />
+    <Content Include="img\screenshots\netct.png" />
+    <Content Include="img\screenshots\ocp.png" />
+    <Content Include="img\screenshots\sms1.png" />
+    <Content Include="img\screenshots\sms2.png" />
+    <Content Include="img\screenshots\sms3.png" />
+    <Content Include="img\screenshots\sms4.png" />
+    <Content Include="img\screenshots\sms5.png" />
+    <Content Include="img\screenshots\sms6.png" />
+    <Content Include="img\zh.jpg" />
+    <Content Include="img\eo.jpg" />
+    <Content Include="inc\misc.inc.js" />
+    <Content Include="js\fancyBox\blank.gif" />
+    <Content Include="js\fancyBox\fancybox_loading.gif" />
+    <Content Include="js\fancyBox\fancybox_sprite.png" />
+    <Content Include="js\fancyBox\helpers\fancybox_buttons.png" />
+    <Content Include="js\fancyBox\helpers\jquery.fancybox-buttons.css" />
+    <Content Include="js\fancyBox\helpers\jquery.fancybox-buttons.js" />
+    <Content Include="js\fancyBox\helpers\jquery.fancybox-thumbs.css" />
+    <Content Include="js\fancyBox\helpers\jquery.fancybox-thumbs.js" />
+    <Content Include="js\fancyBox\jquery.fancybox.css" />
+    <Content Include="js\fancyBox\jquery.fancybox.pack.js" />
+    <Content Include="js\fancyBox\jquery.mousewheel-3.0.6.pack.js" />
+    <Content Include="js\heavyScroll.js" />
+    <Content Include="js\jPlayer\blue.monday\jplayer.blue.monday.css" />
+    <Content Include="js\jPlayer\blue.monday\jplayer.blue.monday.jpg" />
+    <Content Include="js\jPlayer\blue.monday\jplayer.blue.monday.seeking.gif" />
+    <Content Include="js\jPlayer\blue.monday\jplayer.blue.monday.video.play.png" />
+    <Content Include="js\jPlayer\Jplayer.swf" />
+    <Content Include="js\jPlayer\jquery.jplayer.min.js" />
+    <Content Include="js\jquery.pjax.min.js" />
+    <Content Include="js\scripts.js" />
+    <Content Include="master\en.master.js" />
+    <Content Include="master\eo.master.js" />
+    <Content Include="piece\bootstrap.modal.htm" />
+    <Content Include="piece\jplayer.video.htm" />
+    <None Include="Programming.zh.md" />
+    <Content Include="Default.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="img\glyphicons-halflings-white.png" />
+    <Content Include="img\glyphicons-halflings.png" />
+    <Content Include="js\bootstrap.min.js" />
+    <Content Include="js\jquery-1.7.1.min.js" />
+    <Content Include="master\zh.master.js" />
+    <Content Include="robots.txt" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="zh.isp.js" />
+    <Content Include="en.isp.js" />
+    <None Include="Programming.en.md" />
+    <Content Include="CV.en.isp.js" />
+    <None Include="Esperanto.zh.md" />
+    <None Include="Esperanto\Chinese.en.md" />
+    <None Include="Esperanto\Chinese.zh.md" />
+    <None Include="404.eo.md">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Journals\2012\02\16\piggy.selling.zh.md" />
+    <None Include="Journals\2012\02\16\piggy.selling.en.md" />
+    <None Include="js\jPlayer\blue.monday\jPlayer_blue.monday_extd.psd" />
+    <None Include="js\jPlayer\blue.monday\spirites_blue.monday_2011.psd" />
+    <None Include="Programming\StupidPuthon.en.md" />
+    <None Include="Workshop\StupidGraduationThesis.zh.md" />
+    <None Include="About.en.md" />
+    <None Include="About.zh.md" />
+    <None Include="About.eo.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="LangRenderer.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="404.zh.md">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="404.en.md">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CV.en.pdf" />
+    <None Include="CV.zh.pdf" />
+    <None Include="Esperanto.en.md" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>4378</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

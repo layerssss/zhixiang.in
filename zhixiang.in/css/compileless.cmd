@@ -1,0 +1,2 @@
+"C:\Users\LayersSss\Desktop\MONO\dotless\dotless.Compiler.exe" --watch bootstrap/bootstrap.less ./bootstrap.min.css -m
+"C:\Users\LayersSss\Desktop\MONO\dotless\dotless.Compiler.exe" bootstrap/responsive.less ./responsive.min.css -m
