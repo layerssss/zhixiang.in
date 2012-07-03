@@ -69,11 +69,6 @@
     <Content Include="CV.zh.jpg" />
     <Content Include="eo.isp.js" />
     <None Include="css\bootstrap\variables.less" />
-    <None Include="Esperanto\Diary1.en.md" />
-    <None Include="Esperanto\GrammaCheatSheet.en.md" />
-    <None Include="Esperanto\Chinese\tradukoj.zh.md" />
-    <None Include="Esperanto\Chinese\Leciono1.zh.md" />
-    <None Include="Esperanto\Diary2.en.md" />
     <Content Include="img\loading.gif" />
     <Content Include="img\en.jpg" />
     <Content Include="img\i_speak_esperanto.jpg" />
@@ -114,10 +109,9 @@
     <Content Include="js\jPlayer\jquery.jplayer.min.js" />
     <Content Include="js\scripts.js" />
     <Content Include="master\en.master.js" />
-    <Content Include="master\eo.master.js" />
     <Content Include="piece\bootstrap.modal.htm" />
     <Content Include="piece\jplayer.video.htm" />
-    <None Include="Programming.zh.md" />
+    <None Include="Work.zh.md" />
     <Content Include="Default.aspx" />
     <Content Include="Global.asax" />
     <Content Include="img\glyphicons-halflings-white.png" />
@@ -135,19 +129,16 @@
     </Content>
     <Content Include="zh.isp.js" />
     <Content Include="en.isp.js" />
-    <None Include="Programming.en.md" />
+    <None Include="Work.en.md" />
     <Content Include="CV.en.isp.js" />
-    <None Include="Esperanto.zh.md" />
-    <None Include="Esperanto\Chinese.en.md" />
-    <None Include="Esperanto\Chinese.zh.md" />
+    <None Include="Life.zh.md" />
     <None Include="404.eo.md">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Journals\2012\02\16\piggy.selling.zh.md" />
-    <None Include="Journals\2012\02\16\piggy.selling.en.md" />
+    <None Include="Life\2012\02\16\piggy.selling.zh.md" />
+    <None Include="Life\2012\02\16\piggy.selling.en.md" />
     <None Include="js\jPlayer\blue.monday\jPlayer_blue.monday_extd.psd" />
     <None Include="js\jPlayer\blue.monday\spirites_blue.monday_2011.psd" />
-    <None Include="Programming\StupidPuthon.en.md" />
     <None Include="About.en.md" />
     <None Include="About.zh.md" />
     <None Include="About.eo.md" />
@@ -175,10 +166,11 @@
     </None>
     <None Include="CV.en.pdf" />
     <None Include="CV.zh.pdf" />
-    <None Include="Esperanto.en.md" />
+    <None Include="Life.en.md" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Workshop\" />
+    <Folder Include="Work\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />

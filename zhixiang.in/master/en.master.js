@@ -61,9 +61,9 @@ if (typeof (arguments[0].head) == 'function') { arguments[0].head(); } /*-->
                         <div class="nav-collapse">
                             <ul class="nav">
                                 <li class="{$misc.getClassNav('Programming')$}{$misc.getClassNav('CV')$}"><a href="/Programming.{$lang$}">
-                                    Programming</a></li>
+                                    Work</a></li>
                                 <li class="divider-vertical"></li>
-                                <li class="{$misc.getClassNav('Esperanto')$}"><a href="/Esperanto.{$lang$}">Esperanto</a></li>
+                                <li class="{$misc.getClassNav('Esperanto')$}"><a href="/Esperanto.{$lang$}">Life</a></li>
                                 <li class="divider-vertical"></li>
                                 <li><a href="#" onclick="return false;">see me on:</a></li>
                                 <li><a href="https://github.com/layerssss/" target="_blank">Github</a></li>
@@ -72,8 +72,6 @@ if (typeof (arguments[0].head) == 'function') { arguments[0].head(); } /*-->
                             <div style="float: right;">
                                 <img src="/img/loading.gif" class="loading" style="display: none; float: left; margin-top: 15px;" />
                                 <ul class="nav" style="">
-                                <li class="{$misc.getClassLang(lang,'eo',langs)$}"><a title="Esperanto" href="{$$subPage$}.eo">
-                                    <img src="/img/eo.jpg" /></a></li>
                                     <li class="{$misc.getClassLang(lang,'en',langs)$}"><a title="English" href="{$$subPage$}.en">
                                         <img src="/img/en.jpg" /></a></li>
                                     <li class="{$misc.getClassLang(lang,'zh',langs)$}"><a title="Chinese" href="{$$subPage$}.zh">
@@ -87,13 +85,8 @@ if (typeof (arguments[0].head) == 'function') { arguments[0].head(); } /*-->
             </div>
             <!--*/
 arguments[0].body(); /*-->
-            <hr>
             <footer>
-        <p><span class="visible-phone"></span>&copy; Zhixiang Yin 2012 Thanks to my saviours: 
-        <a href="http://twitter.github.com/bootstrap/" target="_blank">Bootstrap</a>,
-        <a href="https://github.com/layerssss/ispJs" target="_blank">ISP.js</a>
-        <a href="http://pjax.heroku.com/" target="_blank">pjax</a>
-        </p>
+        <p><span class="visible-phone"></span></p>
       </footer>
         </div>
     </div>

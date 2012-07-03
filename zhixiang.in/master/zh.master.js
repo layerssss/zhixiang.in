@@ -60,9 +60,9 @@ if (typeof (arguments[0].head) == 'function') { arguments[0].head(); } /*-->
                     </a><a class="brand" href="/About.{$lang$}">尹志翔</a>
                     <div class="nav-collapse">
                         <ul class="nav">
-                            <li class="{$misc.getClassNav('Programming')$}{$misc.getClassNav('CV')$}"><a href="/Programming.{$lang$}">程序员</a></li>
+                            <li class="{$misc.getClassNav('Work')$}{$misc.getClassNav('Work')$}"><a href="/Work.{$lang$}">工作</a></li>
                             <li class="divider-vertical"></li>
-                            <li class="{$misc.getClassNav('Esperanto')$}"><a href="/Esperanto.{$lang$}">世界语</a></li>
+                            <li class="{$misc.getClassNav('Life')$}"><a href="/Life.{$lang$}">生活</a></li>
                             <li class="divider-vertical"></li>
                             <li><a href="#" onclick="return false;">我还在：</a></li>
                             <li><a href="https://github.com/layerssss/" target="_blank">Github上</a></li>
@@ -71,8 +71,6 @@ if (typeof (arguments[0].head) == 'function') { arguments[0].head(); } /*-->
                         <div style="float: right;">
                             <img src="/img/loading.gif" class="loading" style="display:none;float:left;margin-top:15px;" />
                             <ul class="nav" style="">
-                                <li class="{$misc.getClassLang(lang,'eo',langs)$}"><a title="世界语" href="{$$subPage$}.eo">
-                                    <img src="/img/eo.jpg" /></a></li>
                                 <li class="{$misc.getClassLang(lang,'en',langs)$}"><a title="英语" href="{$$subPage$}.en">
                                     <img src="/img/en.jpg" /></a></li>
                                 <li class="{$misc.getClassLang(lang,'zh',langs)$}"><a title="中文" href="{$$subPage$}.zh">
@@ -86,13 +84,8 @@ if (typeof (arguments[0].head) == 'function') { arguments[0].head(); } /*-->
         </div>
             <!--*/
 arguments[0].body(); /*-->
-            <hr>
             <footer>
-        <p><span class="visible-phone"></span>&copy; 尹志翔 2012 感谢拯救我于水深火热之中的
-        <a href="http://twitter.github.com/bootstrap/" target="_blank">Bootstrap</a>,
-        <a href="https://github.com/layerssss/ispJs" target="_blank">ISP.js</a>
-        <a href="http://pjax.heroku.com/" target="_blank">pjax</a>
-        
+        <p><span class="visible-phone"></span>
         </p>
       </footer>
         </div>
