@@ -3,7 +3,7 @@ Work
 
 ##Recent Posts
 
-...
+[[#{time}]#{title}](#{href})
 
 ##HackingList
 

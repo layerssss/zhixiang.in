@@ -1,10 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Web;
-using System.Web.Security;
-using System.Web.SessionState;
-using System.Text.RegularExpressions;
+using System.IO;
+using ispJs;
 namespace zhixiangyin
 {
     public class Global : System.Web.HttpApplication
@@ -60,9 +58,36 @@ namespace zhixiangyin
                         }
                         catch (Exception ex)
                         {
-                            breadcrumb["404"] = ex.Message;
                         }
                         locals["breadcrumb"] = breadcrumb;
+
+
+                        var di = new DirectoryInfo(WebApplication.Server.MapPath("/" + subPage));
+                        if (di.Exists)
+                        {
+                            var lang = WebApplication.Request.Path.Substring(WebApplication.Request.Path.Length - 2);
+                            var content = "";
+                            var tmp = "<p><a href=\"#{href}\">[#{time}]#{title}</a></p>";
+                            Action<DirectoryInfo, string> func = (a1, a2) =>
+                            {
+                            };
+                            func = (tdi, path) =>
+                            {
+                                foreach (var fi in tdi.GetFiles("*."+lang+".md"))
+                                {
+                                    content += tmp.Replace("#{time}", path.Trim('-'))
+                                        .Replace("#{title}",File.ReadAllLines(fi.FullName)[0])
+                                        .Replace("#{href}", "/" + subPage + '-' + path  + fi.Name.Remove(fi.Name.Length - 3)
+                                        );
+                                }
+                                foreach (var ttdi in tdi.GetDirectories())
+                                {
+                                    func(ttdi, path + ttdi.Name + "-");
+                                }
+                            };
+                            func(di, "");
+                            locals["content"] = (locals["content"] as string).Replace(tmp, content);
+                        }
                     };
             ispJs.WebApplication.RegisterSubPage("zh.isp.js");
             ispJs.WebApplication.RegisterRenderer("zh.isp.js",

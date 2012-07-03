@@ -3,7 +3,7 @@
 
 ##最新文章
 
-（暂无）
+[[#{time}]#{title}](#{href})
 
 ##HackingList
 

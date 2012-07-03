@@ -1,6 +1,10 @@
 ﻿Life
 ======================
 
+##Recent Posts
+
+[[#{time}]#{title}](#{href})
+
 ##Esperanto   
 
 I started to learn [Esperanto] in April this year. Althought it's a very-easy-to-learn language, I'm very slow at it, because I don't have lots of time. So for me, I will spend 1 hour per day on it. 

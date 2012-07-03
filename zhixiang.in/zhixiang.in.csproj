@@ -136,16 +136,12 @@
     <None Include="Work.en.md" />
     <Content Include="CV.en.isp.js" />
     <None Include="Life.zh.md" />
-    <None Include="404.eo.md">
-      <SubType>Designer</SubType>
-    </None>
     <None Include="Life\2012\02\16\piggy.selling.zh.md" />
     <None Include="Life\2012\02\16\piggy.selling.en.md" />
     <None Include="js\jPlayer\blue.monday\jPlayer_blue.monday_extd.psd" />
     <None Include="js\jPlayer\blue.monday\spirites_blue.monday_2011.psd" />
     <None Include="About.en.md" />
     <None Include="About.zh.md" />
-    <None Include="About.eo.md" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Default.aspx.cs">
