@@ -1,12 +1,7 @@
-﻿#
-##About him
-Zhixiang Yin<span class="badge">_aka. Michael Yin_</span> is:
+﻿#Homepage
 
-* a [front-end engineer](http://felab.zhixiang.in/)
-* a [C# programmer](Programming.en)
-* an [Esperanto speaker](Esperanto.en)
-* a [zombie killer.](http://steamcommunity.com/id/layerssss)
+##About Him
 
-He looks like↓
+[Coders](/Work.zh) shall be geeks, [not nerds](/Life.zh),
 
-<span class="thumbnail" style="float:left;">![mikelo](/img/photo.jpg)</span>
+then <a href="/img/photo.jpg" class="fancybox">he</a> is a good coder.
