@@ -83,6 +83,13 @@ if (typeof (arguments[0].head) == 'function') { arguments[0].head(); } /*-->
 arguments[0].body(); /*-->
             <footer>
         <p><span class="visible-phone"></span>
+<a href="https://github.com/layerssss/">Github</a>
+<a href="https://www.facebook.com/zhixiang.yin">Facebook</a>
+<a href="http://www.douban.com/people/mikelo/">豆瓣</a>
+<a href="http://www.linkedin.com/pub/zhixiang-yin/44/961/94">Linkedin</a>
+<a href="http://www.ipernity.com/home/241259">ipernity</a>
+<a href="http://www.renren.com/247418418">人人</a>
+<a href="http://dribbble.com/mikelo">dribble</a>
         </p>
       </footer>
         </div>
