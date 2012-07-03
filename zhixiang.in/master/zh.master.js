@@ -60,13 +60,10 @@ if (typeof (arguments[0].head) == 'function') { arguments[0].head(); } /*-->
                     </a><a class="brand" href="/About.{$lang$}">尹志翔</a>
                     <div class="nav-collapse">
                         <ul class="nav">
-                            <li class="{$misc.getClassNav('Work')$}{$misc.getClassNav('Work')$}"><a href="/Work.{$lang$}">工作</a></li>
+                            <li class="{$misc.getClassNav('Work')$}"><a href="/Work.{$lang$}">工作</a></li>
                             <li class="divider-vertical"></li>
                             <li class="{$misc.getClassNav('Life')$}"><a href="/Life.{$lang$}">生活</a></li>
                             <li class="divider-vertical"></li>
-                            <li><a href="#" onclick="return false;">我还在：</a></li>
-                            <li><a href="https://github.com/layerssss/" target="_blank">Github上</a></li>
-                            <li><a href="https://www.facebook.com/zhixiang.yin" target="_blank">Facebook上</a></li>
                         </ul>
                         <div style="float: right;">
                             <img src="/img/loading.gif" class="loading" style="display:none;float:left;margin-top:15px;" />

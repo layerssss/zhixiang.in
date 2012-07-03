@@ -1,4 +1,4 @@
-// Variables.less
+﻿// Variables.less
 // Variables to customize the look and feel of Bootstrap
 // -----------------------------------------------------
 
@@ -31,7 +31,6 @@
 @purple:                #7a43b6;
 
 
-@themeColor: spin(@green,-40);
 // Scaffolding
 // -------------------------
 @bodyBackground:        @white;
@@ -40,8 +39,7 @@
 
 // Links
 // -------------------------
-@tmp1: @themeColor;
-@linkColor:             darken(@tmp1,15%);
+@linkColor:             #08c;
 @linkColorHover:        darken(@linkColor, 15%);
 
 
@@ -51,9 +49,9 @@
 @serifFontFamily:       Georgia, "Times New Roman", Times, serif;
 @monoFontFamily:        Menlo, Monaco, Consolas, "Courier New", monospace;
 
-@baseFontSize:          13px;
+@baseFontSize:          16px;
 @baseFontFamily:        @sansFontFamily;
-@baseLineHeight:        18px;
+@baseLineHeight:        22px;
 @altFontFamily:         @serifFontFamily;
 
 @headingsFontFamily:    inherit; // empty to use BS default, @baseFontFamily
@@ -148,15 +146,15 @@
 // Navbar
 // -------------------------
 @navbarHeight:                    40px;
-@navbarBackground:                @themeColor;
-@navbarBackgroundHighlight:       darken(@navbarBackground,10%);
+@navbarBackground:                darken(@linkColor,5%);
+@navbarBackgroundHighlight:       @linkColor;
 
-@navbarText:                      complement(contrast(@navbarBackground));
-@navbarLinkColor:                 lighten(@navbarText,30%);
-@navbarLinkColorHover:            @navbarLinkColor;
+@navbarText:                      @white;
+@navbarLinkColor:                 @grayLighter;
+@navbarLinkColorHover:            @white;
 @navbarLinkColorActive:           @navbarLinkColorHover;
-@navbarLinkBackgroundHover:       transparent;
-@navbarLinkBackgroundActive:      @navbarBackground;
+@navbarLinkBackgroundHover:       darken(@linkColor,10%);
+@navbarLinkBackgroundActive:      lighten(@linkColor,10%);
 
 @navbarSearchBackground:          lighten(@navbarBackground, 25%);
 @navbarSearchBackgroundFocus:     @white;

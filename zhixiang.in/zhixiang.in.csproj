@@ -35,14 +35,16 @@
   <ItemGroup>
     <Reference Include="ispJs, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\Desktop\MONO\ispJs\bin\ispJs.dll</HintPath>
+      <HintPath>..\..\..\..\Desktop\MONO\ispJs\bin\ispJs.dll</HintPath>
     </Reference>
-    <Reference Include="MarkdownServerPages">
-      <HintPath>..\..\ispJs.org\MarkdownServerPages\bin\Debug\MarkdownServerPages.dll</HintPath>
+    <Reference Include="MarkdownServerPages, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Visual Studio 2010\Projects\ispJs.org\MarkdownServerPages\bin\Debug\MarkdownServerPages.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
-    <Reference Include="PolyglotServerPages">
-      <HintPath>..\..\ispJs.org\PolyglotServerPages\bin\Debug\PolyglotServerPages.dll</HintPath>
+    <Reference Include="PolyglotServerPages, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Visual Studio 2010\Projects\ispJs.org\PolyglotServerPages\bin\Debug\PolyglotServerPages.dll</HintPath>
     </Reference>
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
@@ -63,7 +65,9 @@
   <ItemGroup>
     <Content Include="css\bootstrap-responsive.min.css" />
     <Content Include="css\bootstrap.min.css" />
-    <Content Include="css\stylesheet.css" />
+    <Content Include="css\stylesheet.css">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="CV.en.jpg" />
     <Content Include="CV.zh.isp.js" />
     <Content Include="CV.zh.jpg" />

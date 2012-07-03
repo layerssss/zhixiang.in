@@ -60,14 +60,11 @@ if (typeof (arguments[0].head) == 'function') { arguments[0].head(); } /*-->
                         </a><a class="brand" href="/About.{$lang$}">Zhixiang Yin</a>
                         <div class="nav-collapse">
                             <ul class="nav">
-                                <li class="{$misc.getClassNav('Programming')$}{$misc.getClassNav('CV')$}"><a href="/Programming.{$lang$}">
+                                <li class="{$misc.getClassNav('Work')$}"><a href="/Work.{$lang$}">
                                     Work</a></li>
                                 <li class="divider-vertical"></li>
-                                <li class="{$misc.getClassNav('Esperanto')$}"><a href="/Esperanto.{$lang$}">Life</a></li>
+                                <li class="{$misc.getClassNav('Life')$}"><a href="/Life.{$lang$}">Life</a></li>
                                 <li class="divider-vertical"></li>
-                                <li><a href="#" onclick="return false;">see me on:</a></li>
-                                <li><a href="https://github.com/layerssss/" target="_blank">Github</a></li>
-                                <li><a href="https://www.facebook.com/zhixiang.yin" target="_blank">Facebook</a></li>
                             </ul>
                             <div style="float: right;">
                                 <img src="/img/loading.gif" class="loading" style="display: none; float: left; margin-top: 15px;" />

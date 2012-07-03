@@ -21,12 +21,11 @@ namespace zhixiangyin
         protected void Application_Start(object sender, EventArgs e)
         {
             #region ISP.js配置细节
-            PolyglotServerPages.WebApplication.Languages = new string[] { "en", "zh", "eo" };
+            PolyglotServerPages.WebApplication.Languages = new string[] { "en", "zh" };
 
             Global.HomePages = new Dictionary<string, string>();
             HomePages["zh"] = "NiHao";
             HomePages["en"] = "Hello";
-            HomePages["eo"] = "Saluton";
 
             Action<Dictionary<string, object>, string> load = (locals, file) =>
                     {
@@ -93,27 +92,10 @@ namespace zhixiangyin
                     },
                     PathTransforming = (path) => path.Replace('-', ispJs.Utility.PathSymbol)
                 });
-            ispJs.WebApplication.RegisterSubPage("eo.isp.js");
-            ispJs.WebApplication.RegisterRenderer("eo.isp.js",
-                new MarkdownServerPages.MarkdownRenderer(Server.MapPath("/") + "{0}.eo.md")
-                {
-                    Load = load,
-                    Read = (subPage, file, found) =>
-                    {
-                        PolyglotServerPages.WebApplication.Preference = "eo";
-                        ispJs.WebApplication.Response.AddHeader("Content-Language", "eo");
-                        thread404Status[System.Threading.Thread.CurrentThread.ManagedThreadId] = found;
-                    },
-                    PathTransforming = (path) => path.Replace('-', ispJs.Utility.PathSymbol)
-                });
-            ispJs.WebApplication.RegisterRenderer("About.zh.isp.js", new LangRenderer("zh"));
-            ispJs.WebApplication.RegisterRenderer("About.en.isp.js", new LangRenderer("en"));
-            ispJs.WebApplication.RegisterRenderer("About.eo.isp.js", new LangRenderer("eo"));
 
 
             ispJs.WebApplication.RegisterRenderer("CV.zh.isp.js", new LangRenderer("zh"));
             ispJs.WebApplication.RegisterRenderer("CV.en.isp.js", new LangRenderer("en"));
-            ispJs.WebApplication.RegisterRenderer("CV.eo.isp.js", new LangRenderer("eo"));
             
             #endregion
             ispJs.WebApplication.HandleStart(Server);
