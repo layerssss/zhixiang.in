@@ -106,14 +106,12 @@
     <Content Include="js\fancyBox\jquery.fancybox.css" />
     <Content Include="js\fancyBox\jquery.fancybox.pack.js" />
     <Content Include="js\fancyBox\jquery.mousewheel-3.0.6.pack.js" />
-    <Content Include="js\heavyScroll.js" />
     <Content Include="js\jPlayer\blue.monday\jplayer.blue.monday.css" />
     <Content Include="js\jPlayer\blue.monday\jplayer.blue.monday.jpg" />
     <Content Include="js\jPlayer\blue.monday\jplayer.blue.monday.seeking.gif" />
     <Content Include="js\jPlayer\blue.monday\jplayer.blue.monday.video.play.png" />
     <Content Include="js\jPlayer\Jplayer.swf" />
     <Content Include="js\jPlayer\jquery.jplayer.min.js" />
-    <Content Include="js\jquery.pjax.min.js" />
     <Content Include="js\scripts.js" />
     <Content Include="master\en.master.js" />
     <Content Include="master\eo.master.js" />
