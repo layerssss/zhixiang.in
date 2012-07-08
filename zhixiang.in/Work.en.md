@@ -7,13 +7,18 @@ Work
 
 ##HackingList
 
-[Async.js](https://github.com/caolan/async/)
-[Sass](http://sass-lang.com/)
+[Stylus](http://learnboost.github.com/stylus/)
+[IcedCoffeeScript](http://maxtaco.github.com/coffee-script/)
 [CoffeeScript](http://coffeescript.org/)
-<del>[lessCSS](http://lesscss.org/)</del>
-<del>[Node.js](http://nodejs.org/)</del>
-<del>[Jade](http://jade-lang.com/)</del>
-<del>[Bootstrap](http://twitter.github.com/bootstrap/)</del>
+[lessCSS](http://lesscss.org/)
+[Node.js](http://nodejs.org/)
+[Jade](http://jade-lang.com/)
+[Bootstrap](http://twitter.github.com/bootstrap/)
+<del>[Sass](http://sass-lang.com/)</del>
+<del>[Async.js](https://github.com/caolan/async/)</del>
+<del>[Step](https://github.com/creationix/step)</del>
+<del>[Async.js](https://github.com/caolan/async/)</del>
+<del>[Sass](http://sass-lang.com/)</del>
 
 ##Projects
 ###InactiveServerPage.js (ISP.js)
